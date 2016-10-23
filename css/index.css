@@ -17,6 +17,12 @@ body{
 
 }
 
+.panel p{
+	font-size:20px;
+}
+
+
+
 @body-bg: #ffffff;
 @text-color: #373737;
 @gray-base: #494949;
@@ -201,6 +207,6 @@ body{
             bottom: 0px;
             left: 43px;
         }
-		
+
 	}
 }

@@ -17,12 +17,13 @@
 	    <link rel="stylesheet" href="css/font-awesome-4.6.3/css/font-awesome.css" />
 	    <link rel='stylesheet' href='css/index.css'>
 	</head>
-	<body style="background-color: #e9ece5; padding-top:70px;">
+	<body style="background-color: #e9ece5; padding-top:70px;" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
+    <div class="navbar-header page-scroll">
+
       <a class="navbar-brand" href="#" style="padding-top:5px;">
        <img src="img/favicon_big.png" height="42" width="42">
      </a>
@@ -32,12 +33,12 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a href="#">Welcome</a></li>
-        <li><a href="#Experience">Experience</a></li>
-        <li><a href="#Interests">Interests</a></li>
-        <li><a href="#Projects">Projects</a></li>
-        <li><a href="#Honors">Honors</a></li>
-        <li><a href="#Contact me">Contact me</a></li>
+        <li><a class="page-scroll" href="#">Welcome</a></li>
+        <li><a class="page-scroll" href="#Experience">Experience</a></li>
+        <li><a class="page-scroll" href="#Interests">Interests</a></li>
+        <li><a class="page-scroll" href="#Projects">Projects</a></li>
+        <li><a class="page-scroll" href="#Honors">Honors</a></li>
+        <li><a class="page-scroll" href="#Contact me">Contact me</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
           <li><a href="index.html">中文</a></li>
@@ -92,10 +93,10 @@
     <div class="row content-row">
         <div class="col-lg-12">
         	<div class="text-center">
-        	<button  type="button" class="btn btn-info">All</button>
+
         	<button type="button" class="btn btn-info">Robotics</button>
 			<button type="button" class="btn btn-info">Hackathons</button>
-			<button type="button" class="btn btn-info">Web</button>
+			<button type="button" class="btn btn-info">Web Development</button>
 			<button type="button" class="btn btn-info">Mathematics</button>
 			<button type="button" class="btn btn-info">Social Innovations</button>
 			<button type="button" class="btn btn-info">History</button>
@@ -108,7 +109,7 @@
 <a NAME="Honors"></a>
 <div class="jumbotron" style="background-color:#e9ece5;">
   <div class = "container-fluid" >
-      <h2 class="text-center" style="font-size:50px;">Honors</h2>
+      <h2 class="text-center" style="font-size:50px;"><i class="fa fa-trophy" aria-hidden="true"></i> Honors </h2>
 			<div class="panel-group" id="accordion" style="padding-top: 30px;"
 			<div class="col-lg-12">
 				 <div class="col-md-1"></div>
@@ -116,8 +117,7 @@
 		     <div class="panel panel-default">
 		       <div class="panel-heading">
 		         <h4 class="panel-title">
-		           <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" style="font-size:24px;">Science and Engineering<div class='btn-toolbar pull-right'><i class="fa fa-sort-desc" aria-hidden="true"></div></i></a>
-
+		           <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" style="font-size:24px;"><i class="fa fa-cog" aria-hidden="true" style="padding-right:15px;"></i>Science & Engineering<div class='btn-toolbar pull-right'><i class="fa fa-sort-desc" aria-hidden="true"></div></i></a>
 		         </h4>
 		       </div>
 		       <div id="collapse1" class="panel-collapse collapse">
@@ -131,7 +131,7 @@
 		     <div class="panel panel-default">
 		       <div class="panel-heading">
 		         <h4 class="panel-title">
-		           <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"  style="font-size:24px;" >Mathematics<div class='btn-toolbar pull-right'><i class="fa fa-sort-desc" aria-hidden="true"></div></i></a>
+		           <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"  style="font-size:24px;"><i class="fa fa-plus" aria-hidden="true" style="padding-right:15px;"></i>Mathematics<div class='btn-toolbar pull-right'><i class="fa fa-sort-desc" aria-hidden="true"></div></i></a>
 		         </h4>
 		       </div>
 		       <div id="collapse2" class="panel-collapse collapse">
@@ -147,17 +147,29 @@
 		     <div class="panel panel-default">
 		       <div class="panel-heading">
 		         <h4 class="panel-title">
-		           <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" style="font-size:24px;">Computer Science<div class='btn-toolbar pull-right'><i class="fa fa-sort-desc" aria-hidden="true"></div></i></a>
+		           <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" style="font-size:24px;"> <i class="fa fa-code" aria-hidden="true" style="padding-right:10px;"></i>Computer Science<div class='btn-toolbar pull-right'><i class="fa fa-sort-desc" aria-hidden="true"></div></i></a>
 		         </h4>
 		       </div>
 		       <div id="collapse3" class="panel-collapse collapse">
 		         <div class="panel-body">
 							 <p>Participated and Demoed in Major League Hacking (MLH) UofTHack 2016</p>
-							 <p>Participated and Demoed in Major League Hacking (MLH) Hack Western 2016, Received Best Devpost with 10 hours to go award </p>
+							 <p>Participated and Demoed in Major League Hacking (MLH) Hack Western 2016, Received the Best Devpost with 10 hours to go Award <a href="https://devpost.com/software/do-you-want-to-hug-me"  style="color: #34E52C;" target="_blank"> link </a></p>
 							 <p>Participated and Demoed in Toronto Hacker Club T.Hack 2016</p>
 						 </div>
 		       </div>
 		     </div>
+				 <div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapse4"  style="font-size:24px;"><i class="fa fa-music" aria-hidden="true" style="padding-right:15px;"></i>Music<div class='btn-toolbar pull-right'><i class="fa fa-sort-desc" aria-hidden="true"></div></i></a>
+						</h4>
+					</div>
+					<div id="collapse4" class="panel-collapse collapse">
+						<div class="panel-body">
+						 <p>WorldStrides Onstage Chicago Heritage Performance 2016 Gold</p>
+					 </div>
+					</div>
+				</div>
 				</div>
 				<div class="col-md-1"></div>
 		   </div>

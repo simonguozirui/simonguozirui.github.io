@@ -6,8 +6,11 @@
 			<meta charset="utf-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1">
    		<title>Simon Guo</title>
+			<script src="js/jquery.js"></script>
+			<script src="js/jquery.easing.min.js"></script>
+			<script src="js/scrolling-nav.js"></script>
     	<script src="css/jquery-2.2.1.min.js"></script>
-    	<script src="css/bootstrap.js"></script>
+    	<script src="js/bootstrap.js"></script>
     	<style type="text/css">a.nounderline {text-decoration: none;  color: inherit; }</style>
 			<link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon-32x32.png">
 			<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
@@ -16,27 +19,35 @@
 	    <link rel="stylesheet" href="css/bootstrap.css" />
 	    <link rel="stylesheet" href="css/font-awesome-4.6.3/css/font-awesome.css" />
 	    <link rel='stylesheet' href='css/index.css'>
-	</head>
-	<body style="background-color: #e9ece5; padding-top:70px;" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+			<link href="css/scrolling-nav.css" rel="stylesheet">
 
+
+
+	<body style="background-color: #e9ece5; padding-top:70px;" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" >
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   		<div class="container-fluid">
     		<div class="navbar-header page-scroll">
-    			<a class="navbar-brand" href="#" style="padding-top:5px;">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+          </button>
+    			<a class="navbar-brand page-scroll" href="#page-top" style="padding-top:5px;">
        			<img src="img/favicon_big.png" height="42" width="42">
      			</a>
-      		<a class="navbar-brand" href="#">Simon Guo</a>
+      		<a class="navbar-brand" href="#page-top">Simon Guo</a>
     		</div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse navbar-ex1-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li><a class="page-scroll" href="#">Welcome</a></li>
+        <li class="hidden"><a class="page-scroll" href="#page-top">Welcome</a></li>
         <li><a class="page-scroll" href="#Experience">Experience</a></li>
         <li><a class="page-scroll" href="#Interests">Interests</a></li>
         <li><a class="page-scroll" href="#Projects">Projects</a></li>
         <li><a class="page-scroll" href="#Honors">Honors</a></li>
-        <li><a class="page-scroll" href="#Contact me">Contact me</a></li>
+        <li><a class="page-scroll" href="#Contact_me">Contact me</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
           <li><a href="index.html">中文</a></li>
@@ -47,42 +58,37 @@
 
 
 
-<section class="section-full" style="background-color:#e9ece5;">
+<section id="page-top" class="section-full" style="background-color:#e9ece5;">
   <div class="container">
   	<div class="text-center" style="font-size: 24px">
 			<div class="alert alert-danger">
-				<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+				<a class="close" data-dismiss="alert" aria-label="close">&times;</a>
     		<p>This website is still under serious construction!!!</p>
   		</div>
 
 		<div style="text-size:36px;">
 		</div>
 		<img src="img/head.png" style="center"></img>
-		<div class="row content-row" style="padding-top:12px">
+		<div class="row content-row" style="padding-top:12px;padding-bottom:30px;">
 				<div class="col-sm-2"></div>
 				<div class="col-sm-8" style="text-align:left;">
-
 					<div class="container-fluid" style="background-color:#f8f8f8">
-					<h1><strong style="font-size:45px;">Simon Zirui Guo</strong>		noun.</h1>
+					<h1><strong style="font-size:45px;">Simon Zirui Guo</strong>		noun.   <button  type="button" class="btn btn-success  btn-lg"><a href="doc/CV_Zirui Simon Guo.pdf" download target="_blank" style="color: white;"> <i class="fa fa-download" style="padding-right: 12px"></i>Resume</a></button></h1>
 					<h3><strong>Synonyms:</strong> 郭子睿, Zirui Guo</h3>
 					<h3><strong>Origin: </strong>Shanghai, China🇨🇳 	 <strong>Mostly Appears:</strong> Toronto, Canada 🇨🇦</h3>
-					<p style="font-size:24px">a Grade 10 high school maker and enjoys using new technologies to solve social issues.</p>
+					<p style="font-size:24px">a high school maker and enjoys using new technologies to solve social issues.</p>
 					</div>
 				</div>
 				<div class="col-sm-2"></div>
 		</div>
-		<div class="row content-row" style="padding-top:36px">
-        <div class="col-sm-5"></div>
-        <div class="col-sm-2">
-        	<button  type="button" class="btn btn-success  btn-lg  btn-block"><a href="doc/CV_Zirui Simon Guo.pdf" download target="_blank" style="color: white;"> <i class="fa fa-download" style="padding-right: 12px"></i>Resume</a></button>
-        </div>
-        <div class="col-sm-5"></div>
-    </div>
+		<div style="pading-top:24px">
+			<a class="page-scroll" href="#Experience"><button  type="button" class="btn btn-success btn-circle btn-xl "><i style="color:white"class="fa fa-angle-down fa-2x" aria-hidden="true"></i></button></a>
+		</div>
 </div>
 </section>
 
 
-<a NAME="Experience"></a>
+<a id="Experience"></a>
 <div class="jumbotron" style="background-color:#b3c2bf;">
   <div class="container">
     <div class="welcome text-center">
@@ -92,7 +98,7 @@
   </div>
 </div>
 
-<a NAME="Interests"></a>
+<a id="Interests"></a>
   <div class="container" style="background-color:#e9ece5;">
     <h1 class="text-center" style="font-size:50px;">Interests</h1>
     <p>I have a wide range of interests, and I like to discover new skills and interests.</p>
@@ -101,7 +107,7 @@
 
 
 
-<a NAME="Projects"></a>
+<a id="Projects"></a>
 <div class="jumbotron" style="background-color:#b3c2bf;">
   <div class="container-fluid">
     <h1 class="text-center" style="font-size:50px;"> <i class="fa fa-bookmark" aria-hidden="true"></i> Projects</h1>
@@ -167,7 +173,7 @@
 </div>
 
 
-<a NAME="Honors"></a>
+<a id="Honors"></a>
 <div class="jumbotron" style="background-color:#e9ece5;">
   <div class = "container-fluid" >
       <h2 class="text-center" style="font-size:50px;"><i class="fa fa-trophy" aria-hidden="true"></i> Honors </h2>
@@ -252,7 +258,7 @@
 
 
 
-<a name="Contact me"></a>
+<a id="Contact_me"></a>
   <div class="jumbotron" style="background-color:black;">
     <div class="container contact">
     <h2 class="text-center" style="font-size:50px; text-decorations:none; color:white;">Contact me</h2>

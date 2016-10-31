@@ -87,6 +87,7 @@ body{
 }
 .timeline .timeline-item .timeline-badge i,
 .timeline .timeline-item .timeline-badge .fa,
+.timeline .timeline-item .timeline-badge img,
 .timeline .timeline-item .timeline-badge .glyphicon {
   top: 2px;
   left: 0px;
@@ -170,7 +171,7 @@ body{
 }
 .timeline-horizontal .timeline-item {
   display: table-cell;
-  height: 280px;
+  height: 400px;
   width: 20%;
   min-width: 320px;
   float: none !important;
@@ -207,4 +208,26 @@ body{
   top: auto;
   bottom: 0px;
   left: 43px;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }

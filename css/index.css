@@ -10,12 +10,20 @@ body{
 	height: 100%;
 }
 
+.navbar_text li{
+	font-family: "Inconsolata", monospace;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1px;
+}
 .contact{
   color: white;
   font-size:20px;
   text-decorations:none;
 
 }
+
 
 .panel p{
 	font-size:20px;

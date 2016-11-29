@@ -31,10 +31,32 @@ body{
 	margin-bottom: 10px;
 	display: inline-block;
 	border: 3px solid white;
-}
-.header_wrapper {
 	text-align: center;
 }
+.header_color_white{
+	border: 3px solid white;
+}
+.header_color_black{
+	border: 3px solid black;
+}
+
+.project_title li {
+	background-color: white;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 2px;
+	color:white;
+	padding: 7px 21px 7px 21px;
+	margin: auto;
+	margin-top: 10px;
+	margin-right: 16px;
+	margin-bottom: 10px;
+	display: inline-block;
+	border: 3px solid white;
+	text-align: center;
+}
+
 
 
 .panel p{

@@ -24,11 +24,11 @@
 
 
 
-	<body style="background-color: #e9ece5; padding-top:70px;" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" >
+	<body style="background-color: #e9ece5;" id="page-top" data-spy="scroll" data-target="navbar-fixed-top" >
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   		<div class="container-fluid">
     		<div class="navbar-header page-scroll">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="navbar-ex1-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -59,26 +59,27 @@
 
 
 
-<section id="page-top" class="section-full" style="background-color:#e9ece5;">
+<section id="page-top" class="section-full text-center" style="background-color:black">
   <div class="container">
-  	<div class="text-center" style="font-size: 24px">
 		<div class="animated fadeInDown">
-			<img src="img/head.png"  style="max-height: 250px; max-width: 250px; center"></img>
-			<div class="row content-row" style="padding-top:12px;padding-bottom:30px;">
-				<div class="col-sm-2"></div>
-				<div class="col-sm-8" style="text-align:left;">
-					<div class="container-fluid" style="background-color:#f8f8f8">
-						<h1><strong style="font-size:45px;">Simon Zirui Guo</strong>		noun.
-							<button type="button" class="btn btn-info btn-lg" style="float: right"><a href="doc/CV_Zirui_Simon_Guo_M.pdf" download target="_blank" style="color: white;"> <i class="fa fa-download" style="padding-right: 12px;"></i>Resume</a></button></h1>
-						<h3><strong>Synonyms:</strong> 郭子睿, Zirui Guo</h3>
-						<h3><strong>Origin: </strong>Shanghai, China🇨🇳 	 <strong>Mostly Appears:</strong> Toronto, Canada 🇨🇦</h3>
-					<p style="font-size:24px">a high school student maker <a href="#" data-toggle="popover" data-trigger="focus" data-placement="right" title="Maker  /ˈmākər/  noun" data-content="People who love to create new things in their spare time."><i class="fa fa-question-circle" aria-hidden="true"></i></a> ; enjoys using new technologies to solve social issues.</p>
+			<div style="padding-top:72px;"><img src="img/head.png"  style="max-height: 250px; max-width: 250px;"></img></div>
+					<div class="container" style="color:white;">
+						<h1 style="font-size:45px;">Hey there! Welcome to my website!
+							<script>
+								$(function(){
+										$(".intro").typed({
+											strings: ["am Simon Zirui Guo", "am a maker and innovator", "lives in Toronto, Canada", "am from Shanghai, China","am a High School Student","am Simon Zirui Guo"],
+											typeSpeed: 20
+										});
+								});
+							</script>
+							<h2 style="padding-bottom:36px;">I <div class="intro" style="display: inline;"></div></h2>
+							<div class="header_title header_wrapper"><a href="doc/Simon_Zirui_Guo.pdf" download target="_blank" style="color: white;"> <i class="fa fa-download" style="padding-right: 12px;"></i>Resume</a></div>
 					</div>
 				</div>
-				<div class="col-sm-2"></div>
 			</div>
 		</div>
-		<div class="animated fadeInUp">
+		<div class="animated fadeInUp" style="padding-top:64px;">
 			<a class="page-scroll" href="#Experience"><button  type="button" class="btn btn-default btn-circle btn-xl "><i style="color:black"class="fa fa-angle-down fa-2x" aria-hidden="true"></i></button></a>
 		</div>
 	</div>
@@ -106,15 +107,6 @@
 										<p><small class="text-muted"><i class="glyphicon glyphicon-map-marker"></i> Shanghai,China </small></p>
 									</div>
 									<div class="timeline-body">
-										<script>
-										  $(function(){
-										      $(".element").typed({
-										        strings: ["First sentence.", "Second sentence."],
-										        typeSpeed: 0
-										      });
-										  });
-										</script>
-
 									</div>
 								</div>
 							</li>
@@ -257,7 +249,7 @@
 				</span>
 				<span class="fa-stack fa-lg">
 					<i class="fa fa-square fa-stack-2x"></i>
-					<i class="fa fa-lightbulb-o fa-stack-1x fa-inverse"></i>
+				  <i class="fa fa-music fa-stack-1x fa-inverse"></i>
 				</span>
 
 			</div>
@@ -296,8 +288,9 @@
 		    <div id="Robotics" class="tab-pane fade in active">
 		      <h3>Robotics</h3>
 		      <p>I have been doing Robotics projects since grade 3, it has been a huge part of my life.</p>
-					<div class="row content-row">
+					<div class="row content-row projectpic">
 						<div class="col-md-1"></div>
+						<div class="col-md-3"><a href ="https://devpost.com/software/hexapod-rescue-robot" target="_blank"><img src="img/projects/hexapod.png" height="200" max-width="200"``></img></a></div>
 						<div class="col-md-3"><a href ="https://github.com/9651-Robotics" target="_blank"><img src="img/projects/9651_robotics.png" height="200" max-width="200"``></img></a></div>
 						<div class="col-md-3"><a href ="https://github.com/simonguozirui/utra_sumobot" target="_blank"><img src="img/projects/utra_sumo.png"  height="200" max-width="200"></img></a></div>
 					  <div class="col-md-5"></div>
@@ -306,14 +299,25 @@
 		    <div id="Hackathons" class="tab-pane fade">
 		      <h3>Hackathons</h3>
 		      <p>I really enjoy hackathons, working with different people, and come up with different ideas.</p>
-					<p>View my hackathon projects at <a href="https://devpost.com/simonguozirui" target="_blank">Devpost</a></p>
-					<a href ="https://devpost.com/software/bestpitch" target="_blank"><img src="img/projects/best_pitch.png" height="200" width="200"></img></a>
-					<a href ="https://devpost.com/software/do-you-want-to-hug-me" target="_blank"><img src="img/projects/hug_plush.png" height="200" width="200"></img></a>
+					<p>View documentations for my hackathon projects at <a href="https://devpost.com/simonguozirui" target="_blank">Devpost</a></p>
+					<div class="row content-row">
+						<div class="col-md-2"></div>
+						<div class="col-md-2"><a href ="https://devpost.com/software/bestpitch" target="_blank"><img src="img/projects/best_pitch.png" height="200" max-width="200"></img></a></div>
+						<div class="col-md-2"><a href ="https://devpost.com/software/do-you-want-to-hug-me" target="_blank"><img src="img/projects/hug_plush.png"  height="200" max-width="200"></img></a></div>
+						<div class="col-md-2"><a href ="https://devpost.com/software/smart-push-up-shirt" target="_blank"><img src="img/projects/push_up_shirt.png"  height="200" max-width="200"></img></a></div>
+						<div class="col-md-2"><a href ="https://devpost.com/software/farm-radar" target="_blank"><img src="img/projects/farm_radar.png"  height="200" max-width="200"></img></a></div>
+						<div class="col-md-2"></div>
+					</div>
 				</div>
 		    <div id="Web" class="tab-pane fade">
 		      <h3>Web Development</h3>
 		      <p>I enjoy creating websites.</p>
-					<a href ="https://github.com/simonguozirui/simonguozirui.github.io" target="_blank"><img src="img/favicon_big.png" height="200" width="200"></img></a>
+					<div class="row content-row">
+						<div class="col-md-2"></div>
+						<div class="col-md-2"><a href ="https://github.com/simonguozirui/simonguozirui.github.io" target="_blank"><img src="img/favicon_big.png" height="200" max-width="200"></img></a></div>
+						<div class="col-md-2"><a href ="https://dmcs.tech/hackathons" target="_blank"><img src="img/projects/dmcs.png" height="200" max-width="200"``></img></a></div>
+						<div class="col-md-2"></div>
+					</div>
 
 		    </div>
 				<div id="Mathematics" class="tab-pane fade">
@@ -323,7 +327,6 @@
 				<div id="History" class="tab-pane fade">
 		      <h3>History</h3>
 		      <p>I love history, as it is so miserable and complicated.</p>
-						<a href ="doc/Avro_Arrow.pdf" target="_blank"><img src="img/projects/avro_arrow.png" height="200" width="200"></img></a>
 						<a href ="doc/Avro_Arrow.pdf" target="_blank"><img src="img/projects/avro_arrow.png" height="200" width="200"></img></a>
 				</div>
 				</div>

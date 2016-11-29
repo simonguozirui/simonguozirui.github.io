@@ -10,6 +10,7 @@ body{
 	height: 100%;
 }
 
+
 .navbar_text li{
 	font-family: "Inconsolata", monospace;
 	font-weight: normal;
@@ -22,6 +23,24 @@ body{
   font-size:20px;
   text-decorations:none;
 
+}
+
+.header_title {
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 2px;
+	color:white;
+	padding: 7px 21px 7px 21px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+	border: 3px solid white;
+}
+.header_wrapper {
+	text-align: center;
 }
 
 
@@ -238,4 +257,8 @@ body{
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
+}
+
+.projectpic img{
+	border-radius: 3px;
 }

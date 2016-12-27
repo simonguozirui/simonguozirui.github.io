@@ -1,4 +1,4 @@
-###Hi,there! This is Simon Zirui Guo's personal website.
+###Hi,there! This is Simon Zirui Guo's personal website/portofolio.
 ###You can also access it by going to [simonguo.tech](https://simonguozirui.github.io/).
 ####Contact Me at:
 [E-mail](simonguozirui@gmail.com)

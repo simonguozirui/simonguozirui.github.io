@@ -90,7 +90,7 @@
 		background-image: url("../img/bg.jpg"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../img/bg.jpg");
 		background-image: url("../img/bg.jpg"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../img/bg.jpg");
 		background-repeat: repeat,			no-repeat,			no-repeat;
-		background-size: 2560px 1600px, cover,cover;
+		background-size: 1440px 900px, cover,cover;
 		background-position: top left,		center center,		bottom center;
 		background-attachment: fixed,			fixed,				fixed;
 	}

@@ -15,7 +15,6 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="css/noscript.css"/></noscript>
-		<script src="js/typed.js"></script>
 	</head>
 	<body class="is-loading">
 
@@ -27,16 +26,7 @@
 						<header>
 							<span class="avatar"><img src="img/head.png" alt="Simon Zirui Guo" /></span>
 							<h1>Simon Zirui Guo</h1>
-							<script>
-				        $(function(){
-				            $(".intro").typed({
-				              strings: ["a maker and innovator.", "live in Toronto, Canada.", "from Shanghai, China.","a Grade 10 High School Student.","Hackathon Enthusiast"],
-				              typeSpeed: 20
-				            });
-				        });
-				      </script>
-							<div class="intro" style="display: inline;"></div>
-							<p class="intro"></p>
+							<p class="center"><div class="intro" style="display: inline;"></div></p>
 						</header>
 						<footer>
 							<ul class="icons">
@@ -64,6 +54,16 @@
 					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
 					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
 				}
+			</script>
+			<script src="js/jquery.js"></script>
+			<script src="js/typed.js"></script>
+			<script>
+				$(function(){
+						$(".intro").typed({
+							strings: ["a maker and innovator", "a Grade 10 High School Student","Hackathon Enthusiast", "live in Toronto, Canada", "from Shanghai, China"],
+							typeSpeed: 20
+						});
+				});
 			</script>
 
 	</body>

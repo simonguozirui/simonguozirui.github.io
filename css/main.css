@@ -854,3 +854,72 @@
 		body.is-ie #wrapper {
 			height: 100%;
 		}
+
+
+.header_title {
+	color: #414f57;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+	line-height: 2;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-transform: uppercase;
+	text-align: center;
+	color:black;
+	padding: 7px 21px 7px 21px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+	text-align: center;
+	border: solid 1px #c8cccf;
+}
+	.header_title a {
+		text-decoration: none;
+		position: relative;
+		display: block;
+		width: 3.75em;
+		height: 3.75em;
+		border-radius: 100%;
+		border: solid 1px #c8cccf;
+		line-height: 3.75em;
+		overflow: hidden;
+		text-align: center;
+		text-indent: 3.75em;
+		white-space: nowrap;
+	}
+
+		.header_title a:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+
+		.header_title a:before {
+			color: #ffffff;
+			border: solid 1px #c8cccf;
+		}
+
+		.header_title a:hover:before {
+			border: solid 1px #ff7496;
+		}
+
+		.header_title a:before {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: inherit;
+			height: inherit;
+			font-size: 1.85rem;
+			line-height: inherit;
+			text-align: center;
+			text-indent: 0;
+		}
+
+		.header_title a:hover {
+			border-color: #ff7496;
+		}

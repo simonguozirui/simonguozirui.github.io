@@ -17,9 +17,9 @@
 
 /* css files
 ====================== */
-@import url('css/bootstrap.min.css');
-@import url('css/material-design-iconic-font.min.css');
-@import url('css/slick.min.css');
-@import url('css/jquery.fancybox.css');
-@import url('css/style.css');
-@import url('css/responsive.css');
+@import url('bootstrap.min.css');
+@import url('material-design-iconic-font.min.css');
+@import url('slick.min.css');
+@import url('jquery.fancybox.css');
+@import url('style.css');
+@import url('responsive.css');

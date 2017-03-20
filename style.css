@@ -1,0 +1,25 @@
+
+/*==========================================================
+    Template Name: Mim Personal Portfolio Template
+    Created By: RegalTheme
+    Envato Profile: https://themeforest.net/user/regaltheme
+    Website: http://regaltheme.com
+    Description: Mim is Fully Responsive Personal Portfolio Template with awesome features.
+    Version: v1.2
+    Support: http://regaltheme.com/support
+============================================================*/
+
+
+/* google fonts
+========================== */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400');
+
+/* css files
+====================== */
+@import url('css/bootstrap.min.css');
+@import url('css/material-design-iconic-font.min.css');
+@import url('css/slick.min.css');
+@import url('css/jquery.fancybox.css');
+@import url('css/style.css');
+@import url('css/responsive.css');

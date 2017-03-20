@@ -1,0 +1,205 @@
+
+/* Large Devices, Wide Screens :1200px
+====================================*/
+@media (min-width: 1200px) and (max-width: 1500px) {
+	
+}
+
+/* Normal desktop :992px
+====================================*/
+@media (min-width: 992px) and (max-width: 1200px) {
+	
+.mainmenu.onepage-nev {
+  margin-left: -35px;
+}
+.single-experi .dashed-line {
+  height: 140px;
+}
+
+}
+
+/* Tablet desktop :768px
+===================================*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+.right .mainmenu {
+  display: none;
+}
+.slider-text h1 {
+  font-size: 38px;
+}
+.single-experi .left-text {
+  width: 130px;
+}
+.single-experi .dashed-line {
+  height: 186px;
+}
+.project-title h4 {
+	font-size: 18px;
+}
+.single-portfolio:hover .project-title {
+	bottom: 10px;
+}
+.single-portfolio .project-title {
+	left: 10px;
+}
+.single-portfolio .zoom-icon a {
+	margin-top: -60px;
+}
+.contact-form {
+  margin: 0 auto;
+  width: 350px;
+}
+.blog-title h4 {
+  line-height: 22px;
+}
+.service-area .mobile-mb-30{
+	margin-bottom: 30px;
+}
+.right.skill-progress {
+  width: 320px;
+}
+.service-area .mobile-mb-30:nth-child(3){
+	margin-bottom: 0px;
+}
+
+}
+
+/* Small Mobile :320px. 
+====================================*/
+@media (max-width: 767px) {
+
+.container{
+	width:300px;
+}
+.mobile-mb-30{
+	margin-bottom: 30px;
+}
+.section-padding {
+  padding: 80px 0;
+}
+.percent-25, 
+.percent-33, 
+.percent-50 {
+  width: 100%;
+}
+
+.right .mainmenu {
+  display: none;
+}
+.menu-logo {
+  padding: 30px 0;
+}
+.mainmenu-expand {
+  width: 250px;
+}
+
+.slider-text {
+  left: 0;
+  margin-top: 0;
+  position: static;
+  top: 0;
+}
+.slider-img.text-right {
+  width: 200px;
+}
+.slider-text h1 {
+  line-height: 40px;
+}
+
+.right.skill-progress,
+.slider-img.text-right{
+  margin-top: 50px;
+}
+.right.skill-progress {
+  width: 250px;
+}
+
+.single-experi .left-text {
+	width: 122px;
+}
+.single-experi .right-text h3,
+.single-experi .right-text p {
+  padding-left: 25px;
+}
+.single-experi .dashed-line {
+  height: 214px;
+}
+.project-title h4 {
+	font-size: 18px;
+}
+.single-portfolio:hover .project-title {
+	bottom: 10px;
+}
+.single-portfolio .project-title {
+	left: 10px;
+}
+
+.blog-title h4 {
+  line-height: 22px;
+}
+.slide-text .content p {
+  padding: 0 10px;
+}
+.contact-form {
+  width: 280px;
+}
+.contact_form label.error {
+  bottom: 200%;
+}
+footer .left.floatleft,
+footer .right.floatright {
+  float: none;
+  text-align: center;
+}
+.right.social-link ul {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.social-link li a {
+  padding: 0 5px;
+}
+
+/* blog details */
+.blog-details.header-style-1 .top {
+  min-height: 122px;
+}
+
+}
+
+/* Large Mobile :480px
+=====================================*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.container {width:480px}
+ 
+.percent-33{
+  width: 50%;
+}
+.plr-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.right.skill-progress {
+  width: 450px;
+}
+.slider-img.text-right {
+	float: right;
+	margin-top: 0!important;
+	position: relative;
+	top: -90px;
+	margin-bottom: -90px;
+}
+.single-experi .dashed-line {
+  height: 105px;
+}
+.single-blog img {
+  width: 100%;
+}
+
+.contact-form {
+  width: 450px;
+}
+
+}

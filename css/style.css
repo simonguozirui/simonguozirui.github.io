@@ -12,7 +12,7 @@
 /*===========================================================
     CSS INDEX
     ===================
-	
+
 	[ 1. General Code ]
 	[ 2. Typography ]
 	[ 3. Global Classes ]
@@ -22,7 +22,7 @@
 	[ 7. ScrollUp ]
 ==============================================================*/
 
-/* 
+/*
 [ 1. General Code ]
 ================ */
 body{
@@ -157,10 +157,10 @@ a,
 .navbar a,
 .form-control {
     -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease; 
+    transition: all 0.3s ease;
 }
 
-/* 
+/*
 [ 2. Typography ]
 ==========================*/
 p{
@@ -202,7 +202,7 @@ h6 {
     font-size: 13px;
 }
 
-/* 
+/*
 [ 3. Global Classes ]
 =================== */
 .no-margin {
@@ -291,7 +291,7 @@ h6 {
 /* Screen Support
 -------------------- */
 @media screen and (max-width: 768px) {
-	
+
 	.mt-50 {
 		margin-top: 40px;
 	}
@@ -342,7 +342,7 @@ h6 {
 /* Screen Support
 -------------------- */
 @media screen and (max-width: 768px) {
-	
+
 	.mb-50 {
 		margin-bottom: 30px;
 	}
@@ -408,7 +408,7 @@ h6 {
     padding-top: 60px;
 }
 
-/* Screen Support  
+/* Screen Support
 ---------------------*/
 @media screen and (max-width: 768px) {
 	.pt-50 {
@@ -501,7 +501,7 @@ h6 {
 		padding-top: 70px;
 		padding-bottom: 70px;
 	}
-	
+
 	.pr-90 {
 		padding-right: 30px;
 	}
@@ -593,7 +593,7 @@ h6 {
     font-weight: 900;
 }
 
-/* background color 
+/* background color
 ===============================*/
 
 .light-bg {
@@ -612,10 +612,10 @@ h6 {
 	background: #2b2b2b none repeat scroll 0 0;
 }
 
-/* background image 
+/* background image
 ==================================*/
 
-/* background overlay 
+/* background overlay
 ===================================*/
 .overlay{
 	position:relative;
@@ -634,20 +634,20 @@ h6 {
 	z-index:2;
 }
 
-/* dark overlay 
+/* dark overlay
 ================================*/
 
-/* light overlay 
+/* light overlay
 ================================*/
 
 .overlay.light-1:before {
     background-color: rgba(255,255,255,.8);
 }
 
-/* others color overlay 
+/* others color overlay
 =================================*/
 
-/*Verticle Aligne Middle 
+/*Verticle Aligne Middle
 --------------------------*/
 .d-table {
     display: table;
@@ -678,7 +678,7 @@ h6 {
 .btn:hover{
     background-color: #000000;
 }
-.btn.active, 
+.btn.active,
 .btn:active {
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
@@ -693,8 +693,8 @@ h6 {
     font-size: 20px;
 }
 
-.btn.focus, 
-.btn:focus, 
+.btn.focus,
+.btn:focus,
 .btn:hover {
     color: #fff;
 }
@@ -759,7 +759,7 @@ nav ul,
 nav ul li {
     float: none;
 }
-nav ul li:hover, 
+nav ul li:hover,
 nav ul li.active {
     background-color: transparent;
 }
@@ -776,12 +776,12 @@ nav ul a {
 
 @media only screen and (max-width: 749px) {
     .container {
-        width: 100%; 
+        width: 100%;
     }
 }
 @media only screen and (max-width: 601px) {
     .container {
-         width: 90%; 
+         width: 90%;
     }
 }
 
@@ -800,7 +800,7 @@ nav ul a {
     padding-left: 15px;
 }
 
-/* custom select 
+/* custom select
 ----------------------*/
 select {
 	-moz-appearance: none;
@@ -841,7 +841,7 @@ select {
 	box-shadow: 0 0 0px 0px #d9d9d9;
 }
 
-/* horizontal line 
+/* horizontal line
 -------------------*/
 
 .horizontal-line div {
@@ -892,7 +892,7 @@ select {
     width: 100%;
 }
 
-/* expand menu 
+/* expand menu
 --------------*/
 .mainmenu-expand {
 	height: 100%;
@@ -991,7 +991,7 @@ select {
   width: 100px;
 }
 
-/* 
+/*
 [ 4. Home Version's ]
 ===================================== */
 
@@ -1056,7 +1056,7 @@ select {
 	bottom: 0;
 	transform: translateX(-50%);
 	-ms-transform: translateX(-50%);
-	-webkit-transform: translateX(-50%); 
+	-webkit-transform: translateX(-50%);
 }
 .progress-mark:after {
 	background: #484848 none repeat scroll 0 0;
@@ -1162,7 +1162,7 @@ select {
     transition: all 0.3s ease 0s;
     width: 0;
 	right: 0;
-	margin: -1px auto 0 auto;	
+	margin: -1px auto 0 auto;
 }
 .portfolio-menu li:hover:after,
 .portfolio-menu li.active:after {
@@ -1469,7 +1469,7 @@ select {
     color: #7b7b7b;
 }
 
-/* contact form 
+/* contact form
 ---------------*/
 .contact-form {
   margin: 0 auto;
@@ -1742,7 +1742,7 @@ select {
 }
 
 
-/* 
+/*
 [ 5. Pages ]
 ===================================== */
 .blog-details .header-top {
@@ -1787,7 +1787,7 @@ select {
 	color: #ffffff!important;
 }
 
-/* 
+/*
 [ 6. Loding Bar ]
 ======================*/
 #loading {
@@ -1843,7 +1843,7 @@ select {
 }
 }
 
-/* 
+/*
 [ 7. ScrollUp ]
 ===============*/
 
@@ -1855,7 +1855,7 @@ select {
 	text-align: center;
 	width: 30px;
 }
-#scrollUp i { 
+#scrollUp i {
     color: #fff;
     font-size: 25px;
     line-height: 35px;

@@ -11,7 +11,7 @@
 		$email = $_POST['contactemail'];
 		$message = $_POST['contactmessage'];
 		
-		$formcontent=" From: Mim Contact Form $email \n
+		$formcontent=" From: Contact Form $email \n
 		Name: $name \n
 		Email Address: $email \n
 		Message: $message";

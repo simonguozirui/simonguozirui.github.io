@@ -1182,7 +1182,7 @@ select {
     height: 1px;
     left: 0;
     position: absolute;
-    top: 50%;
+    top: 100%;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     width: 0;

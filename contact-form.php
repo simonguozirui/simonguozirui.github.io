@@ -16,8 +16,8 @@
 		Email Address: $email \n
 		Message: $message";
 		
-		$recipient = "regaltheme@gmail.com";
-		$subject = "Add Your Subject Here";
+		$recipient = "simonguozirui@gmail.com";
+		$subject = "From simonguo.tech";
 		$mailheader = "From: $email \r\n";
 		mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 		

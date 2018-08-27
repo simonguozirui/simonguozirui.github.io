@@ -1905,3 +1905,8 @@ select {
 	color: #767676;
 	margin-left: 22.5px;
 }
+
+.awards a{
+	color: #767676;
+	text-transform: none;
+}

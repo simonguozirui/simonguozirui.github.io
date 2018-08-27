@@ -1910,3 +1910,33 @@ select {
 	color: #767676;
 	text-transform: none;
 }
+
+.feature img{
+	/* max-height: 100%;
+	max-width: 100%;
+	position: relative;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	width: 75%;
+	vertical-align: middle;
+	margin:auto; */
+
+	/* max-height: 100%; */
+  max-width: 80%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+ .feature{
+	transition: all .2s ease-in-out;
+  position: relative;
+	display: inline-block;
+}
+
+.feature:hover { transform: scale(1.1); }

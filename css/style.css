@@ -1926,7 +1926,11 @@ select {
   right: 0;
   margin: auto;
 }
-
+ @media only screen and (max-width: 1000px) {
+	.feature img{
+			position: relative;
+	}
+}
 .feature{
 	transition: all .2s ease-in-out;
   position: relative;

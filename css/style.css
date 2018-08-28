@@ -1727,6 +1727,9 @@ select {
 .dark-version .single-service {
 	background: #252525 none repeat scroll 0 0;
 }
+.single-service a{
+	color: #9b9b9b;
+}
 .dark-version .contact-area .section-title p {
 	color: #9b9b9b;
 }
@@ -1932,4 +1935,7 @@ select {
 
 .feature:hover {
 	transform: scale(1.1);
+}
+.interest-area li{
+	text-align: left;
 }

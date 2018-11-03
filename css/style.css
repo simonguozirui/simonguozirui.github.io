@@ -1238,6 +1238,7 @@ select {
 }
 .project-title p {
     color: #7f7f7f;
+		text-transform: none;
 }
 .single-portfolio:hover .project-title {
     bottom: 30px;
@@ -1899,6 +1900,20 @@ select {
 }
 .intro-page-vertical-center {
 	top: 40vh;
+}
+
+.experience-link{
+	text-transform: none;
+	color: #767676;
+}
+
+.experience-link:hover{
+	text-decoration: underline;
+	color: #767676;
+}
+
+.experience-link:visited{
+	color: #767676;
 }
 .awards i{
 	padding-right: 10px;

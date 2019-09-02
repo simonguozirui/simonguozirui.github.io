@@ -17,3 +17,4 @@
 #### Further Development Plans
 * Use Jekyll to generate sections from a json file of contents
 * Faster load time
+* Overall visual and style re-design

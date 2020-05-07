@@ -1314,6 +1314,8 @@ select {
 }
 .single-service > p {
     color: #979797;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .single-service hr {
     border-color: #dbdbdb;

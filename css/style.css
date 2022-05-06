@@ -1,0 +1,313 @@
+@font-face {
+  font-family: "Colfax Web";
+  src: url("../fonts/Colfax Web/Regular.woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Colfax Web";
+  src: url("../fonts/Colfax Web/RegularItalic.woff");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Colfax Web";
+  src: url("../fonts/Colfax Web/Bold.woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Colfax Web";
+  src: url("../fonts/Colfax Web/BoldItalic.woff");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "SFMoMA";
+  src: url('../fonts/MoMA/SFMOMAText-Bold.ttf') format("truetype"),
+       url('../fonts/MoMA/SFMOMAText-Bold.otf') format("otf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Colfax Web', -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+
+  padding: 40px 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background: white;
+  color: #222;
+
+  max-width: 660px;
+  min-height: 100%;
+}
+
+h1, h2, h3 {
+  font-weight: 300;
+}
+
+h2 {
+  margin-bottom: -10px;
+}
+
+p {
+  font-family: "Colfax Web", sans-serif;
+  font-size: 15px;
+  line-height: 145%;
+}
+
+a, .button, .social > a > img {
+  -webkit-transition: all .1s linear;
+  -moz-transition: all .1s linear;
+  -o-transition: all .1s linear;
+  -ms-transition: all .1s linear;
+  transition: all .1s linear;
+}
+
+.profile-pic > img {
+  -webkit-transition: all .5s linear;
+  -moz-transition: all .5s linear;
+  -o-transition: all .5s linear;
+  -ms-transition: all .5s linear;
+  transition: all .5s linear;
+}
+
+.project-pic > img {
+  -webkit-transition: all .5s linear;
+  -moz-transition: all .5s linear;
+  -o-transition: all .5s linear;
+  -ms-transition: all .5s linear;
+  transition: all .5s linear;
+}
+
+a {
+  color: #0f73aa;
+  border-bottom: 1px dotted #0f73aa;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c0392b;
+  border-bottom: 1px solid #c0392b;
+}
+
+.button {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding:0px 1.35em;
+  background-color:rgba(0,0,0,0.05);
+  border: 0;
+  border-radius:5px;
+  display:inline-block;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:#000;
+  font-weight:600;
+  letter-spacing:1px;
+  font-size:10px;
+}
+
+.button:hover {
+  background-color:rgba(0,0,0,0.08);
+  border: 0;
+  color: #000;
+}
+
+.button_red {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding:0px 1.35em;
+  background-color:#c0392b;
+  border: 0;
+  border-radius:5px;
+  display:inline-block;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:rgb(255, 255, 255);
+  font-weight:600;
+  letter-spacing:1px;
+  font-size:10px;
+}
+
+.button_red:hover {
+  background-color:rgba(0,0,0,0.08);
+  border: 0;
+  color: #000;
+}
+
+
+
+.button_blue {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding:0px 1.35em;
+  background-color:#0f73aa;
+  border: 0;
+  border-radius:5px;
+  display:inline-block;
+  text-transform:uppercase;
+  text-decoration:none;
+  color:rgb(255, 255, 255);
+  font-weight:600;
+  letter-spacing:1px;
+  font-size:10px;
+}
+
+.button_blue:hover {
+  background-color:rgba(0,0,0,0.08);
+  border: 0;
+  color: #000;
+}
+
+
+.profile {
+  display:flex;
+  flex-direction:row;
+  margin-bottom: 20px;
+}
+
+.profile-pic > img {
+  width:120px;
+  height:120px;
+  border-radius:100%;
+  margin-right:10px;
+  /* -webkit-filter: grayscale(100%); */
+  /* filter: grayscale(100%); */
+}
+
+/* .profile-pic > img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+} */
+
+.project-pic > img {
+  width:240px;
+  height:135px;
+  margin-right:10px;
+}
+
+.profile-text {
+  margin: 10px;
+}
+
+.profile-text > h1 {
+  line-height: 0;
+  font-family: "SFMoMA", "San Francisco";
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+  text-transform: none;
+}
+
+.profile-text > h3 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 10pt;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.social > a {
+  border: 0;
+}
+
+.social > a + a {
+  margin-left: 8px;
+}
+
+.social > a > img {
+  height: 24px;
+  border: 0;
+  filter: opacity(100%);
+  -webkit-filter: opacity(100%)
+}
+
+.social > a > img:hover {
+  filter: opacity(50%);
+  -webkit-filter: opacity(50%);
+}
+
+.pub {
+  font-family: -apple-system, BlinkMacSystemFont, 'Colfax Web', sans-serif;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 540px) {
+  .profile {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .profile-pic, .profile-text {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .project {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .project-pic, .project-text {
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  /* The following was 99% written by GitHub Copilot. */
+  body {
+    background: #222;
+    color: #fff;
+  }
+
+  a {
+    color: #3498db;
+  }
+
+  .profile-text > h1 {
+    color: #fff;
+  }
+
+  .button {
+    background-color: rgba(255,255,255,0.05);
+    color: #fff;
+  }
+
+
+  .button:hover {
+    background-color: rgba(255,255,255,0.08);
+    color: #fff;
+  }
+
+  .social > a > img {
+    filter: opacity(100%);
+    -webkit-filter: opacity(100%);
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+  }
+
+  .social > a > img:hover {
+    filter: opacity(50%);
+    -webkit-filter: opacity(50%);
+    filter: invert(50%);
+    -webkit-filter: invert(50%);
+  }
+}

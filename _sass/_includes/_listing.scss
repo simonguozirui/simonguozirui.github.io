@@ -1,0 +1,154 @@
+// - - - - - - - - - - - - - - - - - -
+
+// Listing (blog + projects)
+
+// - - - - - - - - - - - - - - - - - -
+
+.listing-post {
+    margin-top: 10px;
+    width: 80%;
+    margin: auto;
+
+    @include mq(tabletp) {
+        width: 45%;
+        margin-left: 2%;
+        margin-right: 2%;
+        display: inline-block;
+    }
+
+    @include mq(tabletl) {
+        width: 45%;
+        margin-left: 2%;
+        margin-right: 2%;
+        display: inline-block;
+    }
+
+    @include mq(laptop) {
+        width: 30%;
+        margin-left: 1%;
+        margin-right: 1%;
+        display: inline-block;
+
+    }
+
+    &:first-child {
+        margin-top: 0;
+    }
+}
+
+.listing-post__header {
+    text-align: center;
+}
+
+.listing-post__image {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    @include mq(tabletp) {
+        margin-top: 25px;
+    }
+
+    @include mq(tabletl) {
+        margin-top: 30px;
+    }
+
+    @include mq(laptop) {
+        margin-top: 40px;
+    }
+}
+
+.listing-post__content {
+    margin-top: 20px;
+
+    @include mq(tabletp) {
+        margin-top: 25px;
+    }
+
+    @include mq(tabletl) {
+        margin-top: 30px;
+    }
+
+    @include mq(laptop) {
+        margin-top: 40px;
+    }
+
+    p .button {
+        margin-top: 5px;
+
+        @include mq(tabletl) {
+            margin-top: 10px;
+        }
+    }
+}
+
+.listing-post__content div {
+    text-align: center;
+}
+
+.listing-post__subtitle {
+    margin-top: 5px;
+    color: $text-light-color;
+}
+
+h6.listing-post__title {
+    margin-top: 20px;
+}
+
+h3.listing-post__title {
+    margin-top: 50px;
+}
+
+.pagination {
+    margin-top: 0;
+    padding: 0 20px;
+
+    @include mq(tabletp) {
+        padding: 0 80px;
+    }
+
+    @include mq(tabletl) {
+        padding: 0 120px;
+    }
+
+    @include mq(laptop) {
+        padding: 0 140px;
+    }
+
+    @include mq(desktop) {
+        padding: 0 180px;
+    }
+}
+
+.pagination__prev,
+.pagination__next {
+    width: 50%;
+
+    .button {
+        display: block;
+        text-align: center;
+    }
+}
+
+.pagination__prev {
+    float: left;
+    padding-right: $grid-spacing/2;
+}
+
+.pagination__next {
+    float: right;
+    padding-left: $grid-spacing/2;
+}
+
+// - - - - - - - - - - - - - - - - - -
+
+// Custom
+
+// - - - - - - - - - - - - - - - - - -
+
+

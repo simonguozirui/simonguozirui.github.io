@@ -1,0 +1,67 @@
+site: Simon Zirui Guo
+
+url: "https://simonguo.tech"
+baseurl: 
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /project/:slug.html
+  blogs:
+    output: true
+    permalink: /blog/:slug.html
+  research:
+    output: true
+    permalink: /research/:slug.html
+
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "blogs"
+    values:
+      layout: "project"
+  -
+    scope:
+      path: ""
+      type: "research"
+    values:
+      layout: "project"
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+paginate: 20
+paginate_path: "/blog/page:num/"
+  

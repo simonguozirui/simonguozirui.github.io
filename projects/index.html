@@ -1,0 +1,37 @@
+---
+layout: default
+title: Projects
+description: List of Porjects
+featured_image: /images/social.jpg
+---
+
+<section class="intro">
+    <div class="wrap row">
+        <div class="about">
+            <p>Products, Research, and Side Projects I worked on! <i>Note: Some Projects are still being migrated.</i></p>
+            <p>See my <a href="https://devpost.com/simonguozirui">Devpost</a> for old hackathon projects</p>
+        </div>
+    </div>
+
+</section>
+
+<!-- Product I get to work on -->
+
+<section class="listing single">
+    <div class="wrap">
+        <h1>Products I get to work on</h1>
+        {% for post in site.posts %}
+        <article class="listing-post">
+            {% if post.featured_image %}
+            <a href="{{ post.url | relative_url }}" class="listing-post__image" style="background-image: url({{ post.featured_image | relative_url }});"></a>
+            {% endif %}
+            <div class="listing-post__header">
+                <h6 class="listing-post__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h6>
+                <p class="subtitle">{{ post.excerpt }}</p>
+            </div>
+            <div class="listing-post__content">
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+</section>

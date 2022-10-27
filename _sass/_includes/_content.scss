@@ -1,0 +1,419 @@
+// - - - - - - - - - - - - - - - - - -
+
+// Single page/post/project
+
+// - - - - - - - - - - - - - - - - - -
+
+.single {
+    margin-top: 0;
+    padding: 40px 0;
+
+    @include mq(tabletp) {
+        padding: 40px 0;
+    }
+
+    @include mq(laptop) {
+        padding: 40px 0;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .subtitle {
+        margin-top: 5px;
+        text-align: center;
+        color: $text-light-color;
+        max-width: 100%;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    ul,
+    ol {
+        margin-left: auto;
+        margin-right: auto;
+
+        @include mq(tabletp) {}
+
+        @include mq(tabletl) {
+            max-width: 75%;
+        }
+
+        @include mq(laptop) {
+            max-width: 70%;
+        }
+
+        @include mq(desktop) {
+            max-width: 65%;
+        }
+    }
+
+    hr {
+        margin: 20px auto;
+
+        @include mq(tabletp) {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            width: auto;
+        }
+
+        @include mq(tabletl) {
+            max-width: 75%;
+        }
+
+        @include mq(laptop) {
+            max-width: 70%;
+        }
+
+        @include mq(desktop) {
+            max-width: 65%;
+        }
+    }
+
+    blockquote,
+    figure {
+        margin: 20px auto;
+
+        @include mq(tabletp) {
+            margin: 30px auto;
+        }
+
+        @include mq(laptop) {
+            margin: 40px auto;
+        }
+    }
+
+    blockquote p {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    p a {
+        font-weight: $bold-weight;
+        border-bottom: 2px solid $accent-color;
+    }
+
+    p .button {
+        margin-top: 10px;
+    }
+
+    .highlighter-rouge,
+    table {
+        margin: 20px auto;
+        width: 100%;
+
+        @include mq(tabletp) {
+            margin: 30px auto;
+        }
+
+        @include mq(tabletl) {
+            max-width: 75%;
+        }
+
+        @include mq(laptop) {
+            margin: 40px auto;
+            max-width: 70%;
+        }
+
+        @include mq(desktop) {
+            max-width: 65%;
+        }
+    }
+
+    .highlight {
+        display: block;
+        padding: 0;
+        line-height: 1.5;
+        font-size: $p-small*0.85;
+        line-height: $p-lineheight;
+        overflow: auto;
+
+        @include mq(tabletp) {
+            font-size: $p-medium*0.85;
+        }
+
+        @include mq(laptop) {
+            font-size: $p-large*0.85;
+        }
+
+        .highlight {
+            padding: 20px;
+
+            @include mq(tabletp) {
+                padding: 30px;
+            }
+
+            @include mq(laptop) {
+                padding: 40px;
+            }
+        }
+    }
+
+    table {
+        border: 2px solid $text-dark-color;
+
+        thead {
+            background: $text-dark-color;
+            color: $background-color;
+            text-align: left;
+            font-weight: $bold-weight;
+
+            th {
+                font-weight: $bold-weight;
+            }
+        }
+
+        th,
+        td {
+            padding: 10px;
+            font-size: $p-small;
+            font-weight: $p-weight;
+
+            @include mq(tabletp) {
+                padding: 15px;
+                font-size: $p-medium;
+            }
+
+            @include mq(laptop) {
+                padding: 20px;
+            }
+        }
+
+        tr {
+
+            &:nth-child(2n) {
+                background: $background-alt-color;
+            }
+        }
+    }
+
+    sup a.footnote {
+        display: inline-block;
+        margin-left: 5px;
+        min-width: 16px;
+        height: 16px;
+        border-radius: 100%;
+        border-bottom: none;
+        padding: 1px 3px;
+        background: $background-alt-color;
+        font-size: 10px;
+        text-align: center;
+        color: $text-light-color;
+
+        &:hover {
+            background: $text-light-color;
+            color: $background-color;
+        }
+    }
+
+    .footnotes {
+        margin-top: 40px;
+
+        @include mq(tabletp) {
+            margin-top: 60px;
+        }
+
+        @include mq(laptop) {
+            margin-top: 80px;
+        }
+
+        ol {
+            list-style: none;
+            counter-reset: footnotes;
+
+            li {
+                margin-top: 5px;
+                font-size: 13px;
+                counter-increment: footnotes;
+
+                &:before {
+                    content: counter(footnotes);
+                    box-sizing: border-box;
+                    display: inline-block;
+                    margin-right: 3px;
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 100%;
+                    border-bottom: none;
+                    padding: 2px 3px;
+                    background: $background-alt-color;
+                    font-size: 11px;
+                    font-weight: $bold-weight;
+                    text-align: center;
+                    color: $text-light-color;
+                }
+
+                p {
+                    display: inline;
+                    max-width: 100%;
+                    font-size: 13px;
+
+                    a.reversefootnote {
+                        border-bottom: 0;
+                        vertical-align: sub;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.image-wrap,
+.video-wrap {
+    position: relative;
+    margin: 20px auto;
+
+    @include mq(tabletp) {
+        margin: 30px auto;
+    }
+
+    @include mq(laptop) {
+        margin: 40px auto;
+    }
+
+    &:first-child {
+        margin-top: 0;
+    }
+}
+
+.image-wrap img {
+    margin: 0 auto;
+}
+
+.video {
+    position: relative;
+    width: 100%;
+    height: 0;
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+// - - - - - - - - - - - - - - - - - -
+
+// Custom
+
+// - - - - - - - - - - - - - - - - - -
+
+.about p {
+    max-width: 100%;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor:pointer;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.about h3 {
+    margin: 0;
+}
+
+.listing{
+    h6{
+    max-width: 95%;
+    margin-left:0;
+    }
+
+    p{
+    max-width: 100%;
+    }
+}
+
+.about_img {
+  width:300px;
+  height:300px;
+  object-fit:cover;
+  border-radius:50%;
+  margin:auto;
+}
+
+.grey{
+    background-color: #f7f7f7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.no_margin{
+    margin-top:0px;
+}
+
+.author{
+    text-decoration:underline;
+}
+
+.highlight_link{
+    border-bottom: 2px solid #0f73aa;
+}
+
+.listing-post2{
+    margin-bottom: 20px; 
+}
+
+h6{
+    color: #2A2F36;
+    font-weight: 600;
+}
+
+.intro{
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.excerpt{
+    font-size:15px;
+    margin-bottom: 20px;
+}
+
+.link{
+    margin-top:40px;
+}
+
+.link h6{
+    display:inline;
+}
+
+.middle_link{
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.proceeding{
+    text-align:left;
+    display: inline-flex;
+}
+
+#award{
+    margin-left: 10px;
+    color: #ee983d;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 1290px) {
+    .proceeding{
+        text-align:left;
+        display: block;
+    }
+
+    .proceeding p{
+        text-align:left;
+    }
+
+    #award{
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,169 @@
+basic_settings:
+  site_title: Simon Guo
+  site_tagline: Turning Bits & Atoms Into Magic.
+  favicon_image: 
+
+header_settings:
+  avatar_image: /images/me.jpg
+  logo_image: 
+  logo_width: 200
+
+menu_settings:
+  menu_items:
+    # - title: 'About'
+    #   url: '/about.html'
+    - title: 'About'
+      url: '/'
+    - title: 'Projects'
+      url: '/projects/'
+      # url: '/404.html'
+    - title: 'Initiatives'
+      url: '/initiative.html'
+    - title: 'Awards'
+      url: '/award.html'
+    - title: 'Writings'
+      url: '/blogs/'
+
+
+grid_settings:
+  grid_spacing: 10
+
+contact_settings:
+  form_action: ''
+  confirmation_url: '/thanks'
+  email_subject: 'Contact form submission'
+  send_button_text: 'Send Message'
+
+social_settings:
+  facebook_url: ''
+  twitter_url: 'https://twitter.com/simonguozirui'
+  instagram_url: ''
+  snapchat_url: ''
+  youtube_url: ''
+  google-plus_url: ''
+  vimeo_url: ''
+  pinterest_url: ''
+  medium_url: ''
+  quora_url: ''
+  amazon_url: ''
+  apple_url: ''
+  android_url: ''
+  tumblr_url: ''
+  dribbble_url: ''
+  behance_url: ''
+  deviantart_url: ''
+  github_url: 'https://github.com/simonguozirui'
+  reddit_url: ''
+  flickr_url: ''
+  etsy_url: ''
+  kickstarter_url: ''
+  soundcloud_url: ''
+  spotify_url: ''
+  bandcamp_url: ''
+  linkedin_url: 'https://www.linkedin.com/in/simonguozirui/'
+
+color_settings:
+  background_color: '#ffffff'
+  background_alt_color: '#f4f5f6'
+  text_dark_color: '#2A2F36'
+  # text_medium_color: '#6C7A89'
+  text_medium_color: '#212529'
+  # text_light_color: '#ABB7B7'
+  text_light_color: '#8f8f8f'
+  accent_color: '#0f73aa'
+  border_color: '#f7d7b6'
+  overlay_background_color: '#161B21'
+  overlay_text_color: '#ffffff'
+  error_color: '#D64541'
+
+font_settings:
+  font_embed: '<link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600" rel="stylesheet">'
+  title_font: '"Nunito", sans-serif'
+  body_font: '"Nunito", sans-serif'
+  regular_weight: 400
+  bold_weight: 600
+  site_title:
+    small_size: 27
+    medium_size: 25
+    large_size: 25
+    weight: 600
+    letter_spacing: 0
+  site_tagline:
+    small_size: 16
+    medium_size: 18
+    large_size: 20
+    weight: 400
+    letter_spacing: 0
+    line_height: 1.5
+  menu:
+    small_size: 16
+    medium_size: 18
+    large_size: 18
+    weight: 600
+    letter_spacing: 0
+  h1:
+    small_size: 27
+    medium_size: 38
+    large_size: 38
+    weight: 600
+    letter_spacing: -0.02
+    line_height: 1.2
+  h2:
+    small_size: 27
+    medium_size: 30
+    large_size: 25
+    weight: 600
+    letter_spacing: -0.02
+    line_height: 1.2
+  h3:
+    small_size: 22
+    medium_size: 25
+    large_size: 25
+    weight: 400
+    letter_spacing: -0.02
+    line_height: 1.3
+  h4:
+    small_size: 17
+    medium_size: 22
+    large_size: 22
+    weight: 400
+    letter_spacing: 0
+    line_height: 1.6
+  h5:
+    small_size: 17
+    medium_size: 20
+    large_size: 20
+    weight: 400
+    letter_spacing: 0
+    line_height: 1.6
+  h6:
+    small_size: 17
+    medium_size: 17
+    large_size: 17
+    weight: 400
+    letter_spacing: 0
+    line_height: 1.6
+  p:
+    small_size: 16
+    medium_size: 16
+    large_size: 16
+    weight: 300
+    letter_spacing: 0
+    line_height: 1.6
+  blockquote:
+    small_size: 25
+    medium_size: 35
+    large_size: 45
+    weight: 300
+    letter_spacing: -0.02
+    line_height: 1.6
+  buttons:
+    weight: 600
+    letter_spacing: 0
+
+advanced_settings:
+  ajax_loading: true
+  analytics_code: ""
+  custom_styles: ""
+  header_js: ""
+  footer_js: ""

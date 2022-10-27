@@ -1,0 +1,69 @@
+---
+layout: default
+title: Blogs
+description: Simples is a super simple blogging theme for Jekyll.
+featured_image: /images/social.jpg
+---
+
+<section class="intro">
+    <div class="wrap row">
+        <div class="about">
+            <p>Here is <a href="https://curius.app/simon-guo">a collection of text I enjoyed and inspire me.</a></p>
+            <p>I write about technologies, personal reflections, philosophy of religion, ideas in classical text, cold-war history. </p>
+
+            <p><i>Note: Some blogs are still being migrated.</i></p>
+        </div>
+    </div>
+</section>
+
+<section class="listing single">
+
+    <div class="wrap">
+
+        {% for project in site.blogs reversed %}
+
+        <article class="listing-post2">
+<!--             <div class="listing-post__header">
+                <h3 class="listing-post__title"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+            </div> -->
+
+            {% if project.featured_image %}
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+ <!--                    <a href="{{ project.url | relative_url }}" class="listing-post__image" style="background-image: url({{ project.featured_image | relative_url }});"></a> -->
+
+                    <a class="listing-post__image" style="background-image: url({{ project.featured_image | relative_url }});"></a>
+                </div>
+
+                
+                {% endif %}
+                
+
+                <div class="listing-post__content col-lg-8 col-sm-12">
+                    <h6>{{ project.title }}</h6>
+                    <p class="no_margin">{{ project.date_display }}</p>
+                    <p class="excerpt">{{ project.excerpt }}</p>
+                    
+
+                    {% if project.external_link %}
+                    <span class="link">
+                        <h6><a class="highlight_link" href="{{ project.external_link }}">Read More</a></h6>
+                    </span>
+                    {% else %}
+                    <span class="link">
+                        <h6><a class="highlight_link" href="{{ project.url | relative_url }}">Read More</a></h6>
+                    </span>
+                    {% endif %}
+                    
+                    
+                </div>
+            </div>
+
+        </article>
+
+        {% endfor %}
+
+
+    </div>
+
+</section>

@@ -41,13 +41,45 @@ featured_image: /images/social.jpg
 
 
 <section class="listing single">
-    <div class="wrap">
+    <div class="wrap grey">
         <h1>Long-Term Projects</h1>
         {% for post in site.posts %}
             {% if post.type == "project" %}
             <article class="listing-post">
                 {% if post.featured_image %}
                 <a href="{{ post.url | relative_url }}" class="listing-post__image" style="background-image: url({{ post.featured_image | relative_url }});"></a>
+                {% endif %}
+                <div class="listing-post__header">
+                    <h6 class="listing-post__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h6>
+                    <p class="subtitle">{{ post.excerpt }}</p>
+                </div>
+                <div class="listing-post__content">
+                </div>
+            </article>
+            {% endif %}
+
+        {% endfor %}
+    </div>
+</section>
+
+
+
+<section class="listing single">
+    <div class="wrap">
+        <h1>Side Projects</h1>
+        <p style="text-align: center;">Still Migrating them</p>
+
+        {% for post in site.posts %}
+            {% if post.type == "side-project" %}
+            <article class="listing-post">
+                {% if post.featured_image %}
+
+                    {% if post.go_external %}
+                    <a href="{{ post.external_link }}" class="listing-post__image" style="background-image: url({{ post.featured_image | relative_url }});"></a>
+                    {% else %}
+                    <a href="{{ post.url | relative_url }}" class="listing-post__image" style="background-image: url({{ post.featured_image | relative_url }});"></a>
+                    {% endif %}
+
                 {% endif %}
                 <div class="listing-post__header">
                     <h6 class="listing-post__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h6>

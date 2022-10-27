@@ -1,5 +1,5 @@
 ---
-title: 'Parallelizating SLAM'
+title: 'Parallelizing SLAM'
 date: May 2022
 date_display: "Spring 2022"
 featured_image: '/images/research/parallelism-ba-micro.png'

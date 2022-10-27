@@ -12,6 +12,6 @@ paper_text:
 paper_url:
 video_text:
 video_url:
-talk_text: [Workshop]
+talk_text: [Workshop Presentation]
 talk_url: https://oscar-workshop.github.io/files/Gemmini_OSCAR.pdf
 ---

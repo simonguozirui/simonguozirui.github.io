@@ -21,17 +21,43 @@ featured_image: /images/social.jpg
     <div class="wrap">
         <h1>Products I get to work on</h1>
         {% for post in site.posts %}
-        <article class="listing-post">
-            {% if post.featured_image %}
-            <a href="{{ post.url | relative_url }}" class="listing-post__image" style="background-image: url({{ post.featured_image | relative_url }});"></a>
+            {% if post.type == "product" %}
+            <article class="listing-post">
+                {% if post.featured_image %}
+                <a href="{{ post.url | relative_url }}" class="listing-post__image" style="background-image: url({{ post.featured_image | relative_url }});"></a>
+                {% endif %}
+                <div class="listing-post__header">
+                    <h6 class="listing-post__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h6>
+                    <p class="subtitle">{{ post.excerpt }}</p>
+                </div>
+                <div class="listing-post__content">
+                </div>
+            </article>
             {% endif %}
-            <div class="listing-post__header">
-                <h6 class="listing-post__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h6>
-                <p class="subtitle">{{ post.excerpt }}</p>
-            </div>
-            <div class="listing-post__content">
-            </div>
-        </article>
+
+        {% endfor %}
+    </div>
+</section>
+
+
+<section class="listing single">
+    <div class="wrap">
+        <h1>Long-Term Projects</h1>
+        {% for post in site.posts %}
+            {% if post.type == "project" %}
+            <article class="listing-post">
+                {% if post.featured_image %}
+                <a href="{{ post.url | relative_url }}" class="listing-post__image" style="background-image: url({{ post.featured_image | relative_url }});"></a>
+                {% endif %}
+                <div class="listing-post__header">
+                    <h6 class="listing-post__title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h6>
+                    <p class="subtitle">{{ post.excerpt }}</p>
+                </div>
+                <div class="listing-post__content">
+                </div>
+            </article>
+            {% endif %}
+
         {% endfor %}
     </div>
 </section>

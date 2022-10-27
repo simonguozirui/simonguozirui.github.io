@@ -11,4 +11,4 @@ type: product
 ![](/images/products/anyscale-product.svg)
 
 
-I worked the managed service of Ray, called Anyscale.
+I worked on the managed service of Ray, called Anyscale through my internship there.

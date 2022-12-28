@@ -45,15 +45,27 @@ featured_image: /images/social.jpg
                     <p class="excerpt">{{ project.excerpt }}</p>
                     
 
-                    {% if project.external_link %}
+                    <!-- blogs that are not ready yet -->
+                    {% if project.coming_soon %}
                     <span class="link">
-                        <h6><a class="highlight_link" href="{{ project.external_link }}">Read More</a></h6>
+                        <h6><a class="highlight_link">Coming Soon</a></h6>
                     </span>
+
+                    <!-- blogs that are published -->
                     {% else %}
-                    <span class="link">
-                        <h6><a class="highlight_link" href="{{ project.url | relative_url }}">Read More</a></h6>
-                    </span>
-                    {% endif %}
+
+                        {% if project.external_link %}
+                        <span class="link">
+                            <h6><a class="highlight_link" href="{{ project.external_link }}">Read More</a></h6>
+                        </span>
+                        {% else %}
+                        <span class="link">
+                            <h6><a class="highlight_link" href="{{ project.url | relative_url }}">Read More</a></h6>
+                        </span>
+                        {% endif %}
+
+                    {% endif %}    
+
                     
                     
                 </div>

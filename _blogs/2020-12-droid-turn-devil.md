@@ -3,7 +3,7 @@ title: 'Droid turned Devil'
 date: Dec 2020
 date_display: "Dec 2020"
 featured_image: '/images/blogs/alien-david.jpg'
-excerpt: “Serve in heaven or reign in hell? Which is it to be?”
+excerpt: 'Serve in heaven or reign in hell? Which is it to be? Roots of Romantic Satanism in Ridley Scott’s Prometheus (2012) and its sequel Alien: Covenant (2017).'
 ---
 
 *Note*: This is an essay I wrote for [Catherine Sulpizio

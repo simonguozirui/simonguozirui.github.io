@@ -23,7 +23,10 @@ Here are some of the awards I have received over the years.
     <li>Third Place Overall at TechCrunch Shenzhen Hackathon 2017</li>
   </ul>
 
+<h2>Special thanks to </h2>
+
 I like especially like to thank the following individuals for kindness and mentorship that guided me through my journey. 
+
 <ul>
   <li><a href="https://people.eecs.berkeley.edu/~ysshao/">Prof. Sophia Shao</a> </li>
   <li><a href="http://people.eecs.berkeley.edu/~istoica/">Prof. Ion Stoica</a> </li>

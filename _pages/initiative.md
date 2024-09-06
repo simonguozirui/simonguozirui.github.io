@@ -1,12 +1,27 @@
 ---
-title: Initiative
+title: More
 subtitle: 
 description: 
 featured_image: 
 ---
 
 
-Here are some of the initiatives I have engaged in.
+Some other things I like to do:
+
+### Art
+Check out  <a href="https://www.instagram.com/simon.scribbles/">@simon.scribbles</a>.
+<!-- and play <a href="https://youtu.be/aALVDa-wlcE">music</a>. I lived in the Bay Area, Toronto, Italy, Boston, Shenzhen, and Shanghai.
+ -->
+
+
+<!-- <p>
+  Here are my favourite <a href="https://bookshelf.website/simonguozirui/">books</a> and <a href="https://curius.app/simon-guo">writings</a>.
+  I also like to go outdoors, <a href="https://www.instagram.com/simon.scribbles/">paint</a>, and play <a href="https://youtu.be/aALVDa-wlcE">music</a>. I lived in the Bay Area, Toronto, Italy, Boston, Shenzhen, and Shanghai.
+  I draw inspiration from friends in <a href="https://joininteract.com/">Interact Fellowship</a> and <a href="https://eecs.berkeley.edu/resources/undergrads/accel">Accel Scholars</a>.
+</p> -->
+  
+<!-- <p> In more distant time, I prototyped robots at <a href="https://hax.co/">HAX</a>, designed Brain-Computer Interfaces at <a href="https://choosemuse.com/">Interaxon</a>, and spent weekends hacking up <a href="https://www.notion.so/Hackathons-bd9c1bf46a1c4ef89eca0add96eb6b7a">side projects</a> at 30+ hackathons around the world.</p> -->
+
 
 ### Teaching
 I taught department courses at Berkeley as well as designed my own courses called DeCals there. I also did some volunteering and teaching abroad.
@@ -26,9 +41,9 @@ I taught department courses at Berkeley as well as designed my own courses calle
 ### Community
 <a href="https://joininteract.com/">Interact Fellowship</a>, <a href="https://eecs.berkeley.edu/resources/undergrads/accel/"> Accel Scholar </a>
 
-### Hackathon Organizing
+### Hackathons
 
-I organized a few hackathons back in high school.
+I competed in about 30+ hackathons till date, organized a few hackathons back in high school, and sometimes still mentor / present workshops.
 <!-- ![](/images/insert-hacks.png) -->
 
 

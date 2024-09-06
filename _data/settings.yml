@@ -17,7 +17,7 @@ menu_settings:
     - title: 'Projects'
       url: '/projects/'
       # url: '/404.html'
-    - title: 'Initiatives'
+    - title: 'More'
       url: '/initiative.html'
     - title: 'Awards'
       url: '/award.html'

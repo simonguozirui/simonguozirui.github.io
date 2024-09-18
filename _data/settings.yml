@@ -19,8 +19,8 @@ menu_settings:
       # url: '/404.html'
     - title: 'More'
       url: '/initiative.html'
-    - title: 'Awards'
-      url: '/award.html'
+    - title: 'Publications'
+      url: '/pub.html'
     - title: 'Writings'
       url: '/blogs/'
 

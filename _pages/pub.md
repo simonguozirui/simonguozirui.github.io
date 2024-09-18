@@ -5,10 +5,63 @@ description:
 featured_image: 
 ---
 
+<style>
+  .publication {
+    margin-bottom: 10px; /* Reduced spacing */
+  }
+  .paper-title {
+    margin-bottom: -15px; /* Reduced spacing */
+  }
+  .authors {
+    margin-bottom: -15px; /* Reduced spacing */
+  }
+  .conference {
+    font-style: italic;  
+    margin-bottom: 3px; /* Reduced spacing */
+  }
+  .extra-links a {
+  }
+  .extra-links a:hover {
+    text-decoration: underline;
+  }
+</style>
 
-Here are some of the awards I have received over the years.
-  
-<h2>Awards & Honors</h2>
+
+
+
+<h2>Publications</h2>
+<br />
+
+
+{% for paper in site.research reversed%}
+<div class="publication">
+  <h6 class="paper-title">
+    <a href="{{ paper.paper_url  | relative_url }}">{{paper.title}}</a>
+  </h6>
+  <p class="authors">
+    {{ paper.author }}
+
+    {% if paper.author_notation %}
+      <br />
+      <span class="author-notation">{{ paper.author_notation }}</span>
+    {% endif %}
+  </p>
+  <p class="conference">
+    {{paper.conference_short}}
+  </p>
+</div>
+{% endfor %}
+
+
+
+
+<h2>Talks</h2>
+ <ul>
+ <li> Gemmini: Enabling Systematic Deep-Learning Architecture Evaluation via Full-Stack
+Integration. Tutorial at <a href="https://sites.google.com/berkeley.edu/gemmini-tutorial-mlsys-2022/##h.moh3t9dwtezk"><i>MLSys 2022</i></a> and <a href="https://sites.google.com/berkeley.edu/gemminitutorialiiswc2021/"><i>IISWC 2021</i></a>. </li>
+</ul>
+
+<h2>Awards</h2>
   <ul>
     <li>UC Berkeley EECS Arthur M. Hopkin Award (2021-2022) - <i>outstanding Electrical Engineering undergraduate</i></li>
     <li>Apple-UC Berkeley New Silicon Initiative Class Award (2022) - <i>for CS 152 Computer Architecture and Engineering </i></li>

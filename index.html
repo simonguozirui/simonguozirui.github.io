@@ -94,14 +94,14 @@ featured_image:
                     <p class="no_margin">{{ project.author }}</p>
                     <p class="no_margin">{{ project.author_notation }}</p>
 
-                    <p class="no_margin"><i>{{ project.conference }}</i></p>
+                    <p class="no_margin"><i>{{ project.conference_full }}</i></p>
 
                     <!-- <div class="proceeding">
                         <p class="no_margin"><i>{{ project.conference }}</i></p>
                         <p class="no_margin" id="award">{{ project.award }}</p>
                     </div>
                      -->
-                    <!-- <p class="excerpt">{{ project.excerpt }}</p> -->
+                    <p class="excerpt">{{ project.excerpt }}</p>
                     <br />
                     <span class="link">
                         <h6><a class="highlight_link" href="{{ project.paper_url  | relative_url }}">{{ project.paper_text }}</a></h6>

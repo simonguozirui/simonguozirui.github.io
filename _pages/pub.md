@@ -57,6 +57,7 @@ featured_image:
 
 <h2>Talks</h2>
  <ul>
+ <li> GPU kernel generation; Talk at <a href="https://neurips.cc/virtual/2024/108288">HAC: The Hacker-Cup AI Competition @ NeurIPS 2024</a>.</li>
  <li> Gemmini: Enabling Systematic Deep-Learning Architecture Evaluation via Full-Stack
 Integration. Tutorial at <a href="https://sites.google.com/berkeley.edu/gemmini-tutorial-mlsys-2022/##h.moh3t9dwtezk"><i>MLSys 2022</i></a> and <a href="https://sites.google.com/berkeley.edu/gemminitutorialiiswc2021/"><i>IISWC 2021</i></a>. </li>
 </ul>

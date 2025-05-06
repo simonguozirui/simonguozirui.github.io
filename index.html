@@ -77,7 +77,8 @@ featured_image:
             To do that, my research spans across the stack, including efficient learning methods, hardware-software codesign, parallelism and efficient compilation, systems for machine learning, etc. 
             I published at <b>machine learning</b> and <b>computer systems</b> conferences. </p>
         {% for project in site.research reversed%}
-
+        
+        {% if project.featured %}
         <article class="listing-post2">
 <!--             <div class="listing-post__header">
                 <h3 class="listing-post__title"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
@@ -116,6 +117,7 @@ featured_image:
             </div>
 
         </article>
+        {% endif %}
 
         {% endfor %}
 

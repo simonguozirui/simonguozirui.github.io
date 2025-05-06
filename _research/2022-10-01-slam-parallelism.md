@@ -3,6 +3,7 @@ title: Parallelism in Bundle Adjustment for SLAM
 date: Oct 2022
 date_display: "Oct 2022"
 featured_image: '/images/research/parallelism-ba-micro.png'
+featured: True
 author: <b>Simon Zirui Guo</b>, Yakun Sophia Shao
 author_notation: 
 conference_full: ACM Student Research Competition at IEEE/ACM International Symposium on Microarchitecture (MICRO), 2022

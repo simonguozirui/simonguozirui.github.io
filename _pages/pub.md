@@ -55,9 +55,11 @@ featured_image:
 
 
 
-<h2>Talks</h2>
- <ul>
- <li> GPU kernel generation; Talk at <a href="https://neurips.cc/virtual/2024/108288">HAC: The Hacker-Cup AI Competition @ NeurIPS 2024</a>.</li>
+<h2>Talks</h2> 
+<ul>
+ <li> KernelBench; Best Paper Talk at <a href="https://iclr.cc/virtual/2025/workshop/23976#wse-detail-10000567"> DL4C: Deep Learning For Code </a> @ ICLR 2025. </li>
+ <li> Project Popcorn; Talk at <a href="https://youtu.be/mdDVkBeFy9A?feature=shared&t=2160"> GPU MODE </a> @ NVIDIA GTC 2025. </li>
+ <li> GPU kernel generation; Talk at <a href="https://neurips.cc/virtual/2024/108288">HAC: The Hacker-Cup AI Competition</a> @ NeurIPS 2024.</li>
  <li> Gemmini: Enabling Systematic Deep-Learning Architecture Evaluation via Full-Stack
 Integration. Tutorial at <a href="https://sites.google.com/berkeley.edu/gemmini-tutorial-mlsys-2022/##h.moh3t9dwtezk"><i>MLSys 2022</i></a> and <a href="https://sites.google.com/berkeley.edu/gemminitutorialiiswc2021/"><i>IISWC 2021</i></a>. </li>
 </ul>
@@ -90,3 +92,6 @@ I like especially like to thank the following individuals for kindness and mento
   <li><a href="https://www.linkedin.com/in/lakabuli/">Leyla Kabuli  </a> </li>
   <li><a href="https://www.linkedin.com/in/rohan-pai-a95b2b53/">Rohan Pai  </a> </li>
 </ul>
+
+<h2> Mentoring </h2>
+I am lucky to have worked with amazing master and undergrad students on various projects: <a href="https://www.linkedin.com/in/williamh20/">William Hu</a>, <a href="https://www.linkedin.com/in/caia-costello-5b4064216/">Caia Costello</a>, <a href="https://www.linkedin.com/in/carlo-baronio/">Carlo Baronio</a>, <a href="https://www.linkedin.com/in/pietro-max-marsella/">Pietro Marsella</a>, <a href="https://www.linkedin.com/in/ybenpan/">Ben Pan</a>.

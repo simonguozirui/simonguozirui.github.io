@@ -48,4 +48,4 @@ I competed in about 30+ hackathons till date, organized a few hackathons back in
 
 ### World
 I grew up between Toronto, Shanghai, and Bay Area.
-I also spent some time living in Northern Italy, Shenzhen / Hong Kong, Boston, and London.
+I also spent some time living in Tokyo, London, Northern Italy, Shenzhen / Hong Kong, Boston.

@@ -29,25 +29,26 @@ featured_image:
             </br>
             
             <p class="about_text">
-                I am a Computer Science Ph.D. student at Stanford University. Currently during my first year, I am rotating with 
+                I am a Computer Science Ph.D. student at Stanford University, part of the <a href="https://scalingintelligence.stanford.edu/">Scaling Intelligence Lab</a> with <a href="http://azaliamirhoseini.com/"> Prof. Azalia Mirhoseini</a>. I have also worked / collaborated with 
+                <a href="https://cs.stanford.edu/~chrismre/">Prof. Christopher Ré</a> in <a href="https://hazyresearch.stanford.edu/">Hazy Research Lab</a>, 
+                and <a href="https://thashim.github.io/">Prof. Tatsunori Hashimoto</a> through the rotation program. 
+                
+                <!-- Currently during my first year, I am rotating with 
                 <a href="http://azaliamirhoseini.com/"> Prof. Azalia Mirhoseini </a> in the <a href="https://scalingintelligence.github.io/"> Scaling Intelligence Lab</a>,
                 <a href="https://cs.stanford.edu/~chrismre/">Prof. Christopher Ré</a> in the <a href="https://hazyresearch.stanford.edu/">Hazy Research Lab</a>, 
-                and <a href="https://thashim.github.io/">Prof. Tatsunori Hashimoto</a>.
+                and <a href="https://thashim.github.io/">Prof. Tatsunori Hashimoto</a>. -->
             </p>
-            <p> I studied  <a href="https://eecs.berkeley.edu/">Electrical Engineering and Computer
+            <p> I studied <a href="https://eecs.berkeley.edu/">Electrical Engineering and Computer
                     Sciences</a> during my undergrad at Berkeley. I was luckily involved in the <a href="https://slice.eecs.berkeley.edu/">SLICE lab</a> working with <a href="https://people.eecs.berkeley.edu/~ysshao/">Prof. Sophia Shao</a>, 
                     and <a href="https://rise.cs.berkeley.edu/">RISE lab</a> working with <a href="https://people.eecs.berkeley.edu/~istoica/">Prof. Ion Stoica</a>.                    
             </p>
 
-            <!--                 I love interfacing with both bits (software) and atoms (hardware), especially playing at their intersection. 
-                Currently, I am training Language Models more efficiently at <a href="https://cohere.com/">Cohere</a>.
-                Previously, I designed GPUs at <a href="https://www.apple.com/ca/newsroom/2023/10/apple-unveils-m3-m3-pro-and-m3-max-the-most-advanced-chips-for-a-personal-computer/">Apple</a>, 
-                scaled out Distributed Systems at <a href="https://www.anyscale.com/">Anyscale</a>, and built Autonomous Vehicles at <a href="https://www.nvidia.com/en-us/self-driving-cars/">NVIDIA</a>.
-             -->
+            <!--                 I love interfacing with both bits (software) and atoms (hardware), especially playing at their intersection.              -->
 
-            <p> I am broadly interested in computer systems and machine learning.
-
-                Most recently, I spent some time pre-training language models at <a href="https://cohere.com/">Cohere</a>. Previously, I designed GPUs at <a href="https://www.apple.com/ca/newsroom/2023/10/apple-unveils-m3-m3-pro-and-m3-max-the-most-advanced-chips-for-a-personal-computer/">Apple</a>, 
+             <!-- I am broadly interested in computer systems and machine learning.-->
+            <p> 
+                My work centers on the intersection of computer systems and machine learning, with a focus on enabling scaling and progressing toward self-improvement.
+                Most recently, I spent some time pre-training language models at <a href="https://cohere.com/">Cohere</a> and experimenting with evolutionary algorithms at <a href="https://sakana.ai/">Sakana AI</a>.  Previously, I designed GPUs at <a href="https://www.apple.com/ca/newsroom/2023/10/apple-unveils-m3-m3-pro-and-m3-max-the-most-advanced-chips-for-a-personal-computer/">Apple</a>, 
                 scaled out distributed systems at <a href="https://www.anyscale.com/">Anyscale</a>, and make cars drive themselves at <a href="https://www.nvidia.com/en-us/self-driving-cars/">NVIDIA DRIVE</a>.
             </p>
 <!--             
@@ -74,9 +75,42 @@ featured_image:
 <section class="listing single" id="research">
     <div class="wrap grey">
         <h1 class="divider">Research</h1>
-        <p>I believe the future of computing would be specialized and distributed to enable intelligence at scale and to be ubiquitous.
-            To do that, my research spans across the stack, including efficient learning methods, hardware-software codesign, parallelism and efficient compilation, systems for machine learning, etc. 
-            I published at <b>machine learning</b> and <b>computer systems</b> conferences. </p>
+
+        <br />
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; align-items: start;">
+            <div>
+                <!-- <p>Recent Interest: Code Generation, ML Systems, Post-Training, Self-Improvement </p> -->
+                <p> Currently I'm interested in the interplay of <b>machine learning and systems</b> that enables self-improvement, as well as improving models’ <b>code generation capability</b> through post-training and scaling synthetic data. I’ve published at machine learning and computer systems conferences. </p> 
+                
+                <!-- <p>I believe the future of computing would be specialized and distributed to enable intelligence at scale and to be ubiquitous.
+                    To do that, my research spans across the stack, including efficient learning methods, hardware-software codesign, parallelism and efficient compilation, systems for machine learning, etc. 
+                    I published at <b>machine learning</b> and <b>computer systems</b> conferences. </p> -->
+            </div>
+            <div>
+                <h5 style="text-align: left; margin-left: 1rem;">Highlights:</h5>
+                <ul class="research-areas" style="text-align: left; padding-left: 1rem; margin-left: 0;">
+                    <li>
+                        <b>ML & Systems:</b>
+                        <a href="https://arxiv.org/abs/2502.10517">KernelBench</a>,
+                        <a href="https://oscar-workshop.github.io/files/Gemmini_OSCAR.pdf">Gemmini</a>,
+                        <a href="https://dl.acm.org/doi/10.1145/3492321.3519576">D3</a>
+                    </li>
+                    <li>
+                        <b>Post-Training:</b>
+                        <a href="https://arxiv.org/abs/2507.11948">Kevin</a>,
+                        <a href="https://huggingface.co/facebook/KernelLLM">KernelLLM</a>, 
+                        <a href="https://arxiv.org/abs/2504.18116">TPT</a>  
+                    </li>
+                    <li>
+                        <b>Pre-Training & CPT:</b>
+                        <a href="https://arxiv.org/abs/2408.08274">BAM</a>,
+                        <a href="https://docs.cohere.com/docs/command-r">Command-R</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <br />
         {% for project in site.research reversed%}
         
         {% if project.featured %}

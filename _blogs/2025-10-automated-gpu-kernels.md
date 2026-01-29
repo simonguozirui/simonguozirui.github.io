@@ -4,6 +4,7 @@ date: Oct 2025
 date_display: "Oct 2025"
 featured_image: '/images/blogs/kb-popcorn-1-year.png'
 excerpt: A 1-year retrospective on KernelBench / progress towards automated GPU Kernel Generations
+tags: [author]
 
 ---
 
@@ -191,4 +192,5 @@ Relevant Projects & Publications we were on:
 * GPU kernel generation; Talk at [**HAC: The Hacker-Cup AI Competition**](https://neurips.cc/virtual/2024/108288) @ NeurIPS 2024  
 * Project Popcorn; Talk at [**GPU MODE**](https://youtu.be/mdDVkBeFy9A?feature=shared&t=2160) @ NVIDIA GTC 2025  
 * KernelBench; Best Paper Talk at [**DL4C: Deep Learning For Code**](https://iclr.cc/virtual/2025/workshop/23976#wse-detail-10000567) @ ICLR 2025
+* How to Build Agents to Generate Kernels for Faster LLMs (and Other Models!) [Tutorial](https://neurips.cc/virtual/2025/loc/mexico-city/128792) @ NeurIPS 2025
 

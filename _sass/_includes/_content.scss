@@ -417,3 +417,48 @@ h6{
         margin-left: 0px;
     }
 }
+
+// - - - - - - - - - - - - - - - - - -
+// Blog tags (next to date)
+// - - - - - - - - - - - - - - - - - -
+
+.blog-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.blog-meta__date {
+    margin: 0;
+}
+
+.blog-tag {
+    display: inline-block;
+    padding: 2px 8px;
+    font-size: 12px;
+    font-weight: $bold-weight;
+    line-height: 1.4;
+    text-transform: lowercase;
+    border-radius: 4px;
+    text-decoration: none;
+    border: none;
+}
+
+.blog-tag--collab {
+    background: $accent-color;
+    color: $background-color;
+}
+
+.blog-tag--author,
+.blog-tag--authors {
+    background: #2d8a6e;
+    color: $background-color;
+}
+
+.blog-tag--personal {
+    background: $border-color;
+    color: $text-dark-color;
+}

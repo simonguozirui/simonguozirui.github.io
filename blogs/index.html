@@ -41,7 +41,14 @@ featured_image: /images/social.jpg
 
                 <div class="listing-post__content col-lg-8 col-sm-12">
                     <h6>{{ project.title }}</h6>
-                    <p class="no_margin">{{ project.date_display }}</p>
+                    <div class="blog-meta">
+                        <span class="blog-meta__date">{{ project.date_display }}</span>
+                        {% if project.tags %}
+                            {% for tag in project.tags %}
+                                <span class="blog-tag blog-tag--{{ tag }}">{{ tag }}</span>
+                            {% endfor %}
+                        {% endif %}
+                    </div>
                     <p class="excerpt">{{ project.excerpt }}</p>
                     
 

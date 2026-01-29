@@ -4,6 +4,7 @@ date: Dec 2019
 date_display: "Dec 2019"
 featured_image: '/images/blogs/aeneas-dido.jpg'
 excerpt: How does love appear as a potent and potentially dangerous emotion and force in Virgil's Aeneid and Lucretius' The Way Things Are?
+tags: [personal]
 ---
 
 *Note*: This is an essay I wrote for the [Classics R44 Roots of Western Civilization](https://classes.berkeley.edu/content/2019-Fall-CLASSIC-R44-001-LEC-001) course at UC Berkeley in Fall 2019. I want to thank my section instructor [Kristina Chew](https://dagrs.berkeley.edu/people/kristina-chew) and [Prof. Giovanni R. F. Ferrari](https://philosophy.berkeley.edu/people/detail/122) for their discussions and feedback throughout this process.

@@ -57,6 +57,7 @@ featured_image:
 
 <h2>Talks</h2> 
 <ul>
+ <li> How to Build Agents to Generate Kernels for Faster LLMs (and Other Models!); <a href="https://neurips.cc/virtual/2025/loc/mexico-city/128792">Tutorial</a> @ NeurIPS 2025</li>
  <li> KernelBench; Best Paper Talk at <a href="https://iclr.cc/virtual/2025/workshop/23976#wse-detail-10000567"> DL4C: Deep Learning For Code </a> @ ICLR 2025. </li>
  <li> Project Popcorn; Talk at <a href="https://youtu.be/mdDVkBeFy9A?feature=shared&t=2160"> GPU MODE </a> @ NVIDIA GTC 2025. </li>
  <li> GPU kernel generation; Talk at <a href="https://neurips.cc/virtual/2024/108288">HAC: The Hacker-Cup AI Competition</a> @ NeurIPS 2024.</li>

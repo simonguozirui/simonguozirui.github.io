@@ -6,6 +6,5 @@ featured_image: '/images/blogs/tensorcore-miffy.png'
 external_link: https://newsletter.semianalysis.com/p/nvidia-tensor-core-evolution-from-volta-to-blackwell
 excerpt: Amdahl’s Law, Strong Scaling, Asynchronous Execution, Blackwell, Hopper, Ampere, Turing, Volta, TMA | with SemiAnalysis
 coming_soon: false
+tags: [collab]
 ---
-Coming soon
-![](/images/blogs/cohere-fax-ray-architecture.png))

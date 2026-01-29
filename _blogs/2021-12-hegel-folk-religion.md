@@ -3,6 +3,7 @@ title: 'Hegel: The Realization of Moral Instruction via Folk Religion'
 date: Dec 2021
 date_display: "Dec 2021"
 featured_image: '/images/blogs/hegel.jpg'
+tags: [personal]
 excerpt: In Hegel’s “The Tübingen Essay”, Hegel proposes the importance of folk religion, which itself is constituted “with respect to ceremonies”. However, this seems to deviate from German Protestant (particularly Luther’s) thoughts’ de-emphasis on rituals, which is often deemed as too Jewish or Catholic. Thus, does Hegel deviate from Luther’s “sola fide” (by faith alone)?
 
 ---

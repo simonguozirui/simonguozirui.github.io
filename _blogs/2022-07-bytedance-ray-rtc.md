@@ -5,6 +5,7 @@ date_display: "Jul 2022"
 featured_image: '/images/blogs/bytedance-ray-rtc-pipeline.png'
 excerpt: Blog I helped write at Anyscale. This explains how ByteDances uses Ray Dataset and Train to build their NLP pipeline for products such as TikTok. 
 coming_soon: true
+tags: [collab]
 ---
 Coming soon
 ![](/images/blogs/bytedance-ray-rtc-pipeline.png)

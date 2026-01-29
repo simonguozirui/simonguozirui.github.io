@@ -3,6 +3,7 @@ title: 'Temporal Authority: Contradiction or Unification'
 date: Oct 2021
 date_display: "Oct 2021"
 featured_image: '/images/blogs/peasant-revolution.jpg'
+tags: [personal]
 excerpt: 'In Prefaces to the Old Testament, Luther explains the causes for the extraneous laws in the Old Testament, showing the impossibility to obey laws leads to the yearning for God’s Grace. Thus, for Christians, faith matters more than following laws. However, Luther in Temporal Authority points out that “True Christians”, although do not need laws, should follow the extensive set of temporal laws. There seems to be a contradiction: if only “faith and love” matters, why shall Christians still follow temporal laws?'
 ---
 

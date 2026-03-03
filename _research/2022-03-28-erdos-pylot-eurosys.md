@@ -4,8 +4,8 @@ date: Mar 2022
 date_display: "Mar 2022"
 featured_image: '/images/research/d3-erdos.png'
 featured: True
-author: Ionel Gog, Sukrit Kalra, Peter Schafhalter*, Joseph E. Gonzalez, Ion Stoica
-author_notation: '* worked as undergraduate research assistant for author'
+author: Ionel Gog, Sukrit Kalra, Peter Schafhalter‡, Joseph E. Gonzalez, Ion Stoica
+author_notation: '‡ worked as undergraduate research assistant for author'
 conference_full: In Proceedings of European Conference on Computer Systems (EuroSys), 2022
 conference_short: EuroSys 2022
 award:

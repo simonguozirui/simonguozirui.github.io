@@ -25,7 +25,7 @@
     <!-- Facebook OpenGraph -->
     <meta property="og:type" content="article">
     <meta property="og:url" content="{{ page.url | absolute_url }}">
-    <meta property="og:title" content="{% if page.url == \"/\" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }} {% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }} {% endif %}">
+    <meta property="og:title" content="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }} – {{ page.title }} {% else %}{{ page.title }} – {{ site.data.settings.basic_settings.site_title }} {% endif %}">
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.excerpt }}{% endif %}">
     <meta property="og:image" content="{{ page.featured_image | absolute_url }}">
     <meta property="og:image:secure_url" content="{{ page.featured_image | absolute_url }}">

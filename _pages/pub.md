@@ -30,6 +30,7 @@ featured_image:
 
 
 <h2>Publications</h2>
+<p>* indicates Equal Contribution</p>
 <br />
 
 
@@ -82,7 +83,7 @@ Integration. Tutorial at <a href="https://sites.google.com/berkeley.edu/gemmini-
 
 <h2>Special thanks to </h2>
 
-I like especially like to thank the following individuals for kindness and mentorship that guided me through my journey. 
+Deeply grateful to the following individuals for their kindness, mentorship, and guidance throughout my journey. 
 
 <ul>
   <li><a href="https://people.eecs.berkeley.edu/~ysshao/">Prof. Sophia Shao</a> </li>
@@ -92,7 +93,8 @@ I like especially like to thank the following individuals for kindness and mento
   <li><a href="https://www.linkedin.com/in/daniellestrachman/">Danielle Strachman</a> </li>
   <li><a href="https://www.linkedin.com/in/lakabuli/">Leyla Kabuli  </a> </li>
   <li><a href="https://www.linkedin.com/in/rohan-pai-a95b2b53/">Rohan Pai  </a> </li>
+  <li><a href="https://arorasimran.com/">Simran Arora </a></li>
 </ul>
 
 <h2> Mentoring </h2>
-I am lucky to have worked with amazing master and undergrad students on various projects: <a href="https://www.linkedin.com/in/williamh20/">William Hu</a>, <a href="https://www.linkedin.com/in/caia-costello-5b4064216/">Caia Costello</a>, <a href="https://www.linkedin.com/in/carlo-baronio/">Carlo Baronio</a>, <a href="https://www.linkedin.com/in/pietro-max-marsella/">Pietro Marsella</a>, <a href="https://www.linkedin.com/in/ybenpan/">Ben Pan</a>.
+I am lucky to have worked with amazing master and undergrad students on various projects: <a href="https://www.linkedin.com/in/williamh20/">William Hu</a>, <a href="https://www.linkedin.com/in/caia-costello-5b4064216/">Caia Costello</a>, <a href="https://www.linkedin.com/in/carlo-baronio/">Carlo Baronio</a>, <a href="https://www.linkedin.com/in/pietro-max-marsella/">Pietro Marsella</a>, <a href="https://www.linkedin.com/in/ybenpan/">Ben Pan</a>, <a href="https://www.linkedin.com/in/nathan-js-paek/">Nathan Paek</a>.

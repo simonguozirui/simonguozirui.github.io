@@ -11,13 +11,35 @@ Copy the theme files to your website directory.
 To run the theme locally, navigate to the theme directory in your terminal and run `bundle install` to install the theme's dependencies. Then run `jekyll serve` to start the Jekyll server.
 
 For myself
-```
+
+```bash
+# Ruby matches .ruby-version (see rbenv: rbenv init; rbenv install 2.7.4; rbenv local 2.7.4)
 bundle install
 bundle exec jekyll serve
 ```
 
-Local version that works for me, ruby `2.7.0`, `jekyll-3.8.5`
-Set ruby with `rbenv init; rbenv local 2.7.4` 
+**Faster rebuilds while editing** (skips unchanged files when possible):
+
+```bash
+bundle exec jekyll serve --incremental
+```
+
+Stack: Ruby **3.3.x** or **3.2.x** (see `.ruby-version`; e.g. `rbenv install 3.3.6`), Jekyll **4.x** (`Gemfile`). **Jekyll 4** uses Kramdown 2 + `kramdown-parser-gfm`. On **Ruby 3+**, **`webrick`** is included for `jekyll serve`. **`sass-embedded` ~> 1.81** is pinned so Ruby **3.3+** can install the SCSS toolchain (older `sass-embedded` breaks on 3.3). After changing Ruby version: `bundle install` then `bundle exec jekyll build`.
+
+---
+
+## GitHub Pages (recommended: GitHub Actions)
+
+This repo includes **`.github/workflows/jekyll-pages.yml`**. It installs gems from `Gemfile.lock` and runs `jekyll build` — same stack as your machine, not GitHub’s old built-in Jekyll.
+
+1. **Repository → Settings → Pages**
+2. Under **Build and deployment**, set **Source** to **GitHub Actions** (not “Deploy from a branch”).
+3. Push the workflow to your default branch (`main`). The **Actions** tab should show a green build; the site publishes when **deploy** finishes.
+4. Custom domain (`CNAME` at repo root): still configured under **Pages** → *Custom domain*; DNS unchanged.
+
+If your default branch is **`master`**, edit the workflow and uncomment the `master` line under `push.branches`, or rename the branch to `main`.
+
+**Project site** (`username.github.io/repo-name/`): set `baseurl: "/repo-name"` in `_config.yml` and keep the workflow as-is (`configure-pages` passes the right `base_path` into `jekyll build`).
 
 ---
 

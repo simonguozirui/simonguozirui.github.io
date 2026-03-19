@@ -55,8 +55,13 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
   
+# Requires jekyll-sass-converter 3.1+ (Gemfile): forwards silence_deprecations to Dart Sass.
+# Suppresses legacy @import noise in css/style.scss until a full @use migration.
 sass:
   style: compressed
+  quiet_deps: true
+  silence_deprecations:
+    - import
 
 plugins:
   - jekyll-paginate

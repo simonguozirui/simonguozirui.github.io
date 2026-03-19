@@ -1,3 +1,5 @@
+@use "sass:math";
+
 // - - - - - - - - - - - - - - - - - -
 
 // Gallery
@@ -95,14 +97,14 @@
 .gallery--grid {
 
 	.gallery__wrap {
-		margin-left: -$grid-spacing/2;
-		margin-right: -$grid-spacing/2;
+		margin-left: math.div(-$grid-spacing, 2);
+		margin-right: math.div(-$grid-spacing, 2);
 	}
 	
 	.gallery__item {
 		float: left;
 		width: 50%;
-		padding: $grid-spacing/2;
+		padding: math.div($grid-spacing, 2);
 	}
 
 	.gallery__item__link {

@@ -1,10 +1,15 @@
-# Build and deploy the site to GitHub Pages using the same Ruby + gems as `bundle install` locally.
+# Build with YOUR Gemfile (Jekyll 4 + Dart Sass). Do NOT use GitHub's suggested
+# "Jekyll" workflow that runs actions/jekyll-build-pages@v1 — that uses Jekyll 3.10
+# + legacy sass and WILL FAIL on this repo's SCSS (@use, color.adjust, math.div).
 #
-# After merging this file:
-# 1. Repo → Settings → Pages → Build and deployment → Source: "GitHub Actions"
-# 2. Push to your default branch (rename `main` below if you use `master`)
+# Setup once:
+# 1. Settings → Pages → Build: GitHub Actions
+# 2. When GitHub asks which workflow, pick THIS file: "Deploy Jekyll site to Pages"
+#    (not "jekyll", "Jekyll using Docker", or anything using jekyll-build-pages)
+# 3. If a wrong workflow was added, delete `.github/workflows/jekyll*.yml` templates
+#    from the repo and re-select this workflow under Pages.
 #
-# Docs: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow
+# https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow
 
 name: Deploy Jekyll site to Pages
 
@@ -12,7 +17,8 @@ on:
   push:
     branches:
       - main
-      # - master   # uncomment if your default branch is still `master`
+      - design_22
+      # - master
   workflow_dispatch:
 
 permissions:

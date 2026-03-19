@@ -30,11 +30,12 @@ Stack: Ruby **3.3.x** or **3.2.x** (see `.ruby-version`; e.g. `rbenv install 3.3
 
 ## GitHub Pages (recommended: GitHub Actions)
 
-This repo includes **`.github/workflows/jekyll-pages.yml`**. It installs gems from `Gemfile.lock` and runs `jekyll build` — same stack as your machine, not GitHub’s old built-in Jekyll.
+This repo includes **`.github/workflows/jekyll-pages.yml`**. It installs gems from `Gemfile.lock` and runs `bundle exec jekyll build` — **Jekyll 4 + Dart Sass**, same as local. **Do not** use GitHub’s suggested **`actions/jekyll-build-pages`** workflow: that runs **Jekyll 3.10** with legacy Sass and will fail on this repo’s SCSS (`@use`, `color.adjust`, etc.).
 
 1. **Repository → Settings → Pages**
 2. Under **Build and deployment**, set **Source** to **GitHub Actions** (not “Deploy from a branch”).
-3. Push the workflow to your default branch (`main`). The **Actions** tab should show a green build; the site publishes when **deploy** finishes.
+3. When GitHub asks which workflow, choose **“Deploy Jekyll site to Pages”** (this file). If you picked the wrong template, remove extra workflows under `.github/workflows/` and assign this one under Pages again.
+4. Push to **`main`** or **`design_22`** (both trigger deploy). The **Actions** tab should show this workflow green; the site updates after the **deploy** job.
 4. Custom domain (`CNAME` at repo root): still configured under **Pages** → *Custom domain*; DNS unchanged.
 
 If your default branch is **`master`**, edit the workflow and uncomment the `master` line under `push.branches`, or rename the branch to `main`.

@@ -1,0 +1,88 @@
+---
+layout: default
+title: Blogs
+description: Simples is a super simple blogging theme for Jekyll.
+featured_image: /images/social.jpg
+---
+
+<section class="intro">
+    <div class="wrap row">
+        <div class="about">
+            <p>Here is <a href="https://curius.app/simon-guo">a collection of text I enjoyed and inspire me.</a></p>
+            <p>I write about ML + Systems, philosophy of religion, ideas in classical text, cold-war history. </p>
+
+            <p><i>Note: Some blogs are still being migrated.</i></p>
+        </div>
+    </div>
+</section>
+
+<section class="listing single">
+
+    <div class="wrap">
+
+        {% for project in site.blogs reversed %}
+
+        <article class="listing-post2">
+<!--             <div class="listing-post__header">
+                <h3 class="listing-post__title"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+            </div> -->
+
+            {% if project.featured_image %}
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+ <!--                    <a href="{{ project.url | relative_url }}" class="listing-post__image" style="background-image: url({{ project.featured_image | relative_url }});"></a> -->
+
+                    <a class="listing-post__image" style="background-image: url({{ project.featured_image | relative_url }});"></a>
+                </div>
+
+                
+                {% endif %}
+                
+
+                <div class="listing-post__content col-lg-8 col-sm-12">
+                    <h6>{{ project.title }}</h6>
+                    <div class="blog-meta">
+                        <span class="blog-meta__date">{{ project.date_display }}</span>
+                        {% if project.tags %}
+                            {% for tag in project.tags %}
+                                <span class="blog-tag blog-tag--{{ tag }}">{{ tag }}</span>
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                    <p class="excerpt">{{ project.excerpt }}</p>
+                    
+
+                    <!-- blogs that are not ready yet -->
+                    {% if project.coming_soon %}
+                    <span class="link">
+                        <h6><a class="highlight_link">Coming Soon</a></h6>
+                    </span>
+
+                    <!-- blogs that are published -->
+                    {% else %}
+
+                        {% if project.external_link %}
+                        <span class="link">
+                            <h6><a class="highlight_link" href="{{ project.external_link }}">Read More</a></h6>
+                        </span>
+                        {% else %}
+                        <span class="link">
+                            <h6><a class="highlight_link" href="{{ project.url | relative_url }}">Read More</a></h6>
+                        </span>
+                        {% endif %}
+
+                    {% endif %}    
+
+                    
+                    
+                </div>
+            </div>
+
+        </article>
+
+        {% endfor %}
+
+
+    </div>
+
+</section>
